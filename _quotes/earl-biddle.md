@@ -3,8 +3,8 @@ layout: quote
 title: "Earl Biddle"
 date: 2026-04-27
 excerpt: "It is to be expected that scientific explanations of human behavior in purely materialistic terms will be met by opposition, not only by the clergy, but by everyone concerned about"
-image: "/assets/images/quotes/earl-biddle.jpg"
-image_alt: "A personal doodle illustration selected for this quote."
+image: "/assets/images/quotes/earl-biddle-alpine-wildflowers.jpg"
+image_alt: "Alpine wildflowers."
 ---
 
 It is to be expected that scientific explanations of human behavior in purely materialistic terms will be met by opposition, not only by the clergy, but by everyone concerned about religion.

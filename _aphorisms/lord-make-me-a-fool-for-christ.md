@@ -4,8 +4,8 @@ title: "Lord, make me a fool for Christ"
 date: 2026-04-27
 source: "Greg Conradi Smith"
 excerpt: "Lord, make me a fool for Christ. And for no other reason."
-image: "/assets/images/quotes/lord-make-me-a-fool-for-christ.jpg"
-image_alt: "A personal doodle illustration selected for this aphorism."
+image: "/assets/images/aphorisms/lord-make-me-a-fool-for-christ.jpg"
+image_alt: "Metal grid wall art."
 ---
 
 Lord, make me a fool for Christ. And for no other reason.
