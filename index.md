@@ -21,13 +21,13 @@ title: Home
     <span>Poetry</span>
     <strong>Poems, fragments, prayers, and lyric experiments.</strong>
   </a>
-  <a class="category-panel" href="{{ '/blurbs/' | relative_url }}">
-    <span>Blurbs</span>
-    <strong>Short passages, fragments, sketches, and unplaced notes.</strong>
-  </a>
   <a class="category-panel" href="{{ '/aphorisms/' | relative_url }}">
     <span>Aphorisms</span>
     <strong>Brief original sayings, fragments, and remembered formulations.</strong>
+  </a>
+  <a class="category-panel" href="{{ '/blurbs/' | relative_url }}">
+    <span>Blurbs</span>
+    <strong>Short passages, fragments, sketches, and unplaced notes.</strong>
   </a>
   <a class="category-panel" href="{{ '/quotes/' | relative_url }}">
     <span>Quotations</span>
