@@ -33,7 +33,7 @@
 >     I am revolted as her fat
 >     Arms rub my back, my hair ... bottom?
 >     ``Does this happen elsewhere often?
->     Do other mother's,'' I think, ``pat
+>     Do other mothers,'' I think, ``pat
 >     Sons similarly disgusted?
 >     How come I do not love her?
 >     Does she want me as my father?''
