@@ -12,29 +12,6 @@ title: Home
   <img class="hero-mark" src="{{ '/assets/images/g-symbol-bw.png' | relative_url }}" alt="" aria-hidden="true">
 </section>
 
-<section class="category-band" aria-label="Writing categories">
-  <a class="category-panel" href="{{ '/essays/' | relative_url }}">
-    <span>Essays</span>
-    <strong>Longer meditations, talks, and open-journal arguments.</strong>
-  </a>
-  <a class="category-panel" href="{{ '/poetry/' | relative_url }}">
-    <span>Poetry</span>
-    <strong>Poems, fragments, prayers, and lyric experiments.</strong>
-  </a>
-  <a class="category-panel" href="{{ '/aphorisms/' | relative_url }}">
-    <span>Aphorisms</span>
-    <strong>Brief original sayings, fragments, and remembered formulations.</strong>
-  </a>
-  <a class="category-panel" href="{{ '/blurbs/' | relative_url }}">
-    <span>Blurbs</span>
-    <strong>Short passages, fragments, sketches, and unplaced notes.</strong>
-  </a>
-  <a class="category-panel" href="{{ '/quotes/' | relative_url }}">
-    <span>Quotations</span>
-    <strong>Gathered passages, remembered lines, and source notes.</strong>
-  </a>
-</section>
-
 <section class="home-section" aria-labelledby="recent-title">
   <div class="section-heading">
     <p class="eyebrow">Recently added</p>

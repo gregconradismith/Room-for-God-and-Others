@@ -1,8 +1,10 @@
 <header class="site-header" aria-label="Site header">
-  <div class="masthead">
-    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
-    <p>{{ site.description | escape }}</p>
-  </div>
+  {% unless page.url == "/" %}
+    <div class="masthead">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+      <p>{{ site.description | escape }}</p>
+    </div>
+  {% endunless %}
   <nav class="site-nav" aria-label="Writing categories">
     <a href="{{ '/about/' | relative_url }}">About</a>
     <a href="{{ '/essays/' | relative_url }}">Essays</a>
