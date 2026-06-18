@@ -5,5 +5,8 @@
       alt="{{ page.image_alt | default: page.title | escape }}"
       {% if page.image_position %}style="object-position: {{ page.image_position | escape }};"{% endif %}
     >
+    {% if page.image_credit %}
+      <figcaption>{{ page.image_credit | escape }}</figcaption>
+    {% endif %}
   </figure>
 {% endif %}

@@ -5,6 +5,7 @@ date: 2026-06-14
 excerpt: "A poem beginning: “Commander Helmut Von Fred”"
 image: /assets/images/poems/commander-helmut-von-fred.jpg
 image_alt: "A solemn commander wearing a metal colander as a helmet."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 ---
 
 <div class="verse">
