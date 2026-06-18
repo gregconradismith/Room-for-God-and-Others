@@ -2,6 +2,8 @@
 
 A writing-focused static site for essays, poetry, journal notes, aphorisms, and favorite quotations.
 
+Live site: https://gregconradismith.github.io/Room-for-God-and-Others/
+
 This repository is set up as a small Jekyll site, which GitHub Pages can build directly.
 
 ## Writing
