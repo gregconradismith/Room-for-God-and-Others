@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}?v={{ site.css_version | default: 1 }}">
+    {% seo title=false %}
+  </head>
+  <body class="layout-{{ page.layout | default: 'default' | escape }}">
+    {% include header.html %}
+    <main id="content">
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | escape }}. Room for God &amp; Others. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

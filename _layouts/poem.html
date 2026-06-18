@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="work poem">
+  <header class="work-header">
+    <a class="return-link" href="{{ '/poetry/' | relative_url }}">Poetry</a>
+    <p class="eyebrow">Poem</p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.date %}
+      <p class="work-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      </p>
+    {% endif %}
+  </header>
+  <div class="prose poem-body">
+    {% include feature-image.html %}
+    {{ content }}
+  </div>
+</article>

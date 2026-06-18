@@ -1,0 +1,63 @@
+title: "Room for God & Others"
+description: "Essays, poems, journal fragments, aphorisms, and quotations."
+url: "https://gregconradismith.github.io"
+baseurl: "/Room-for-God-and-Others"
+lang: en
+timezone: America/New_York
+css_version: 1
+
+author:
+  name: "Greg Conrad Smith"
+
+collections:
+  essays:
+    output: true
+    permalink: /essays/:title/
+  poems:
+    output: true
+    permalink: /poetry/:name/
+  aphorisms:
+    output: true
+    permalink: /aphorisms/:name/
+  quotes:
+    output: true
+    permalink: /quotes/:name/
+  blurbs:
+    output: true
+    permalink: /blurbs/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: essay
+      category: essay
+  - scope:
+      path: ""
+      type: poems
+    values:
+      layout: poem
+  - scope:
+      path: ""
+      type: aphorisms
+    values:
+      layout: aphorism
+  - scope:
+      path: ""
+      type: quotes
+    values:
+      layout: quote
+  - scope:
+      path: ""
+      type: blurbs
+    values:
+      layout: blurb
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed

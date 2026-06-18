@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="work quote-work">
+  <header class="work-header">
+    <a class="return-link" href="{{ '/quotes/' | relative_url }}">Quotations</a>
+    <p class="eyebrow">Quotation</p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.source %}
+      <p class="work-meta">{{ page.source | escape }}</p>
+    {% endif %}
+  </header>
+  <div class="prose quote-body">
+    {% include feature-image.html %}
+    {{ content }}
+  </div>
+</article>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article class="work">
+  <header class="work-header">
+    <a class="return-link" href="{{ '/essays/' | relative_url }}">Essays</a>
+    <p class="eyebrow">{% if page.draft %}Draft Essay{% else %}Essay{% endif %}</p>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="work-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.reading_time %}<span>{{ page.reading_time }}</span>{% endif %}
+    </p>
+    {% if page.draft_note %}
+      <p class="draft-note">{{ page.draft_note | escape }}</p>
+    {% endif %}
+  </header>
+  <div class="prose">
+    {% include feature-image.html %}
+    {{ content }}
+  </div>
+</article>

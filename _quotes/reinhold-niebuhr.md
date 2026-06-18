@@ -1,0 +1,12 @@
+---
+layout: quote
+title: "Reinhold Niebuhr"
+date: 2026-04-27
+excerpt: "The vantage point from which man judges his insignificance is a very significant vantage point."
+image: "/assets/images/quotes/reinhold-niebuhr.jpg"
+image_alt: "A personal doodle illustration selected for this quote."
+---
+
+The vantage point from which man judges his insignificance is a very significant vantage point.
+
+--Reinhold Niebuhr, *The Nature and Destiny of Man* (paraphrased, probably)

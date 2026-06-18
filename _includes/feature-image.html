@@ -1,0 +1,9 @@
+{% if page.image %}
+  <figure class="feature-image">
+    <img
+      src="{{ page.image | relative_url }}"
+      alt="{{ page.image_alt | default: page.title | escape }}"
+      {% if page.image_position %}style="object-position: {{ page.image_position | escape }};"{% endif %}
+    >
+  </figure>
+{% endif %}
