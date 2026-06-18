@@ -82,16 +82,18 @@ a:hover {
 .site-nav {
   border-top: 1px solid var(--line);
   display: flex;
-  gap: 0;
+  gap: 8px;
   justify-content: center;
   margin: 0 auto;
   max-width: var(--max);
-  padding: 0 22px;
+  padding: 10px 22px;
   white-space: nowrap;
 }
 
 .site-nav a {
-  border-left: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.74);
+  border: 1px solid rgba(217, 213, 204, 0.96);
+  border-radius: 6px;
   color: var(--soft-ink);
   display: flex;
   flex: 1 1 0;
@@ -102,18 +104,23 @@ a:hover {
   letter-spacing: 0.07em;
   min-width: 0;
   overflow: hidden;
-  padding: 11px clamp(4px, 1.5vw, 22px) 10px;
+  padding: 9px clamp(4px, 1.4vw, 18px) 8px;
   text-decoration: none;
   text-transform: uppercase;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease;
 }
 
-.site-nav a:last-child {
-  border-right: 1px solid var(--line);
-}
-
-.site-nav a:hover {
+.site-nav a:hover,
+.site-nav a:focus-visible {
   background: var(--accent-2);
+  border-color: var(--accent-2);
+  box-shadow: 0 5px 14px rgba(47, 95, 102, 0.14);
   color: var(--white);
+  outline: 0;
 }
 
 .home-nav {
@@ -728,8 +735,9 @@ figcaption {
   }
 
   .site-nav {
+    gap: 5px;
     justify-content: stretch;
-    padding: 0;
+    padding: 7px 8px;
   }
 
   .site-nav a {
@@ -737,8 +745,7 @@ figcaption {
     font-size: clamp(0.56rem, 2.2vw, 0.72rem);
     letter-spacing: 0.04em;
     min-width: 0;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 7px 3px 6px;
   }
 
   .hero {
@@ -865,6 +872,8 @@ figcaption {
   .site-nav a {
     font-size: 0.5rem;
     letter-spacing: 0.01em;
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
   .hero h1 {
