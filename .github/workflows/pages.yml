@@ -27,6 +27,9 @@ jobs:
         with:
           enablement: true
 
+      - name: Refresh Goodreads data
+        run: ruby scripts/update_goodreads.rb
+
       - name: Validate content references
         run: ruby scripts/validate_content.rb
 
