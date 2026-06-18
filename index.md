@@ -12,6 +12,15 @@ title: Home
   <img class="hero-mark" src="{{ '/assets/images/g-symbol-bw.png' | relative_url }}" alt="" aria-hidden="true">
 </section>
 
+<nav class="site-nav home-nav" aria-label="Writing categories">
+  <a href="{{ '/about/' | relative_url }}">About</a>
+  <a href="{{ '/essays/' | relative_url }}">Essays</a>
+  <a href="{{ '/poetry/' | relative_url }}">Poetry</a>
+  <a href="{{ '/aphorisms/' | relative_url }}">Aphorisms</a>
+  <a href="{{ '/blurbs/' | relative_url }}">Blurbs</a>
+  <a href="{{ '/quotes/' | relative_url }}">Quotations</a>
+</nav>
+
 <section class="home-section" aria-labelledby="recent-title">
   <div class="section-heading">
     <p class="eyebrow">Recently added</p>

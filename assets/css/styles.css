@@ -116,6 +116,11 @@ a:hover {
   color: var(--white);
 }
 
+.home-nav {
+  background: rgba(251, 250, 246, 0.96);
+  border-bottom: 1px solid var(--line);
+}
+
 .hero {
   align-items: end;
   background:
