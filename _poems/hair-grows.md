@@ -5,6 +5,7 @@ date: 2026-06-14
 excerpt: "A poem beginning: “Hair grows”"
 image: /assets/images/poems/hair-grows.jpg
 image_alt: "A whimsical still life of harmless hair tufts on a curiosity table."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 ---
 
 <div class="verse">

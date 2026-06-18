@@ -8,6 +8,7 @@ reading_time: "28 min read"
 excerpt: "A narrative essay on science, higher education, faith, and making room for God and others in value-laden conversations."
 image: /assets/images/essays/room-for-god-and-others.jpg
 image_alt: "A solitary professor walking from modern campus paths toward older historical buildings."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 ---
 
 But, you may say, you were going to speak about science and higher education. What does that have to do with ‘room for God and others’? I will try to explain.
