@@ -13,9 +13,9 @@ layout: default
     {% if page.draft_note %}
       <p class="draft-note">{{ page.draft_note | escape }}</p>
     {% endif %}
+    {% include feature-image.html %}
   </header>
   <div class="prose">
-    {% include feature-image.html %}
     {{ content }}
   </div>
 </article>

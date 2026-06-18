@@ -9,9 +9,9 @@ layout: default
     {% if page.source %}
       <p class="work-meta">{{ page.source | escape }}</p>
     {% endif %}
+    {% include feature-image.html %}
   </header>
   <div class="prose quote-body">
-    {% include feature-image.html %}
     {{ content }}
   </div>
 </article>

@@ -11,9 +11,9 @@ layout: default
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
       </p>
     {% endif %}
+    {% include feature-image.html %}
   </header>
   <div class="prose poem-body">
-    {% include feature-image.html %}
     {{ content }}
   </div>
 </article>
