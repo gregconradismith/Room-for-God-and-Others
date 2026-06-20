@@ -52,3 +52,7 @@ image_position: "50% 35%"
 ## Build and Deploy
 
 This repository is intended to build through GitHub Actions and GitHub Pages. Do not install or run Jekyll locally for this project; push Markdown changes and let the Pages workflow convert them to static HTML.
+
+## Codex Coordination
+
+Codex session state is tracked in `.codex/handoff.md`; durable decisions and task history may also appear in `.codex/` when useful.
