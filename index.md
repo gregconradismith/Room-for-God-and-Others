@@ -21,6 +21,10 @@ title: Home
   <a href="{{ '/quotes/' | relative_url }}">Quotations</a>
 </nav>
 
+<section class="home-section daily-quote-section" aria-label="Quote of the day">
+  {% include daily-quote.html compact=true heading="Quote of the day" %}
+</section>
+
 <section class="home-section writing-section" aria-label="Featured writing">
   <div class="writing-list">
     {% for item in site.data.featured_writing.items %}

@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Rebuild once a day so static date-based pages can refresh.
+    - cron: "17 10 * * *"
   workflow_dispatch:
 
 permissions:
