@@ -1,12 +1,12 @@
 # Codex Handoff
 
-Date: 2026-06-20
+Date: 2026-06-21
 
 Repo: `room-for-god-and-others`
 
 Branch: `main`
 
-Current Git status at handoff creation:
+Current Git status after the 2026-06-21 migration readiness fetch and before this handoff edit:
 
 ```bash
 ## main...origin/main
@@ -67,6 +67,18 @@ Validate public content references without building locally:
 ruby scripts/validate_content.rb
 ```
 
+## Migration Readiness Snapshot
+
+- Checked on 2026-06-21 before moving computers.
+- Non-interactive `git fetch --all --prune` completed successfully.
+- Root `README.md` points to `.codex/handoff.md` when a root README exists.
+
+Pre-edit Git state after fetch:
+
+```bash
+## main...origin/main
+```
+
 ## Notes For The Next Codex
 
 - Keep handoff notes public-safe and workflow-focused.
@@ -75,5 +87,5 @@ ruby scripts/validate_content.rb
   Jekyll/Bundler artifacts.
 - To validate deployment, push to `main` and inspect the GitHub Actions
   Pages/Jekyll workflow run.
-- After adding or updating `AGENTS.md` / `CODEX-HANDOFF.md`, commit the scoped
+- After adding or updating `AGENTS.md` / `.codex/handoff.md`, commit the scoped
   change and push it to `main`.
