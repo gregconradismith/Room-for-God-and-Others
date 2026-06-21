@@ -1,0 +1,13 @@
+{% if site.feedback.enabled != false and page.feedback != false and page.url != "/" %}
+  <section class="page-feedback" aria-labelledby="page-feedback-title" data-page-feedback data-page-path="{{ page.url | escape }}" data-page-title="{{ page.title | default: site.title | escape }}">
+    <div class="page-feedback-inner">
+      <p class="eyebrow" id="page-feedback-title">Reader signal</p>
+      <p class="page-feedback-question">Was this page useful?</p>
+      <div class="page-feedback-actions" role="group" aria-label="Page feedback">
+        <button class="feedback-button" type="button" data-feedback-value="useful">Useful</button>
+        <button class="feedback-button" type="button" data-feedback-value="needs-attention">Needs attention</button>
+      </div>
+      <p class="page-feedback-status" data-feedback-status aria-live="polite"></p>
+    </div>
+  </section>
+{% endif %}

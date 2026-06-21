@@ -14,6 +14,7 @@ This repository is set up as a small Jekyll site, which GitHub Pages can build d
 - Aphorisms live in `_aphorisms/` as Markdown files.
 - Quotations live in `_quotes/` as Markdown files.
 - Shared pages live at the repository root, such as `about.md`, `essays.md`, `poetry.md`, `blurbs.md`, `aphorisms.md`, and `quotes.md`.
+- `quote-of-the-day.md` selects a quotation from `_quotes/` each time the site builds, and `/quotes/feed.xml` exposes the quotation archive as RSS.
 
 Create a new essay with a file name like:
 
@@ -52,6 +53,8 @@ image_position: "50% 35%"
 ## Build and Deploy
 
 This repository is intended to build through GitHub Actions and GitHub Pages. Do not install or run Jekyll locally for this project; push Markdown changes and let the Pages workflow convert them to static HTML.
+
+The Pages workflow also runs once a day so the static quote-of-the-day page refreshes. To enable privacy-respecting analytics, add the site domain to `analytics.plausible_domain` in `_config.yml` after creating the site in Plausible or a compatible self-hosted endpoint. The reader feedback buttons send a custom event only when that analytics hook is configured; otherwise they record a local acknowledgement in the visitor's browser.
 
 ## Codex Coordination
 

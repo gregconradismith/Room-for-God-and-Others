@@ -1,0 +1,28 @@
+{% assign daily_quotes = site.quotes | sort: "path" %}
+{% assign daily_quote_count = daily_quotes | size %}
+{% if daily_quote_count > 0 %}
+  {% assign quote_of_day = daily_quotes | first %}
+  {% assign daily_day = site.time | date: "%j" | minus: 1 %}
+  {% assign daily_quote_index = daily_day | modulo: daily_quote_count %}
+  {% for candidate in daily_quotes %}
+    {% if forloop.index0 == daily_quote_index %}
+      {% assign quote_of_day = candidate %}
+    {% endif %}
+  {% endfor %}
+
+  <article class="daily-quote{% if include.compact %} daily-quote-compact{% endif %}">
+    <p class="eyebrow">{{ include.heading | default: "Quote of the day" | escape }}</p>
+    <h2><a href="{{ quote_of_day.url | relative_url }}">{{ quote_of_day.title | escape }}</a></h2>
+    {% if include.compact %}
+      <p>{{ quote_of_day.excerpt | default: quote_of_day.content | strip_html | normalize_whitespace | truncate: 280 | escape }}</p>
+    {% else %}
+      <div class="daily-quote-text">
+        {{ quote_of_day.content }}
+      </div>
+    {% endif %}
+    <div class="daily-quote-actions">
+      <a class="section-link" href="{{ quote_of_day.url | relative_url }}">Open quotation</a>
+      <a class="section-link" href="{{ '/quotes/feed.xml' | relative_url }}">RSS feed</a>
+    </div>
+  </article>
+{% endif %}
