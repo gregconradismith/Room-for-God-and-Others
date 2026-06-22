@@ -1,5 +1,4 @@
 ---
-
 layout: quote
 title: "Ronald Beiner"
 date: 2026-04-27
@@ -7,10 +6,7 @@ excerpt: "Looking back on that conversation today, I cannot help but wonder whet
 image: "/assets/images/quotes/ronald-beiner.jpg"
 image_alt: "A personal doodle illustration selected for this voice."
 image_credit: "Drawing by Greg Conrad Smith, 2026."
-categories:
-  - Literature
 ---
-
 Looking back on that conversation today, I cannot help but wonder whether my more hopeful view of the discipline and its intellectual achievements was just a conceit of youth, and whether it can survive more rigorous critical scrutiny at a later stage of life.
 
 In response, I would suggest that works of theory, not so different from novels, are a way of articulating the lessons of life. Let's say that both novels and ambitious works of theory are crystallizations of wisdom, so to speak.

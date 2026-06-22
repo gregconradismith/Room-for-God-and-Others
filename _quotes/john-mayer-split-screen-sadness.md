@@ -1,5 +1,4 @@
 ---
-
 layout: quote
 title: "John Mayer, Split Screen Sadness"
 date: 2026-04-27
@@ -7,11 +6,7 @@ excerpt: "'Cause I can't wait to figure out what's wrong with me So I can say th
 image: "/assets/images/quotes/john-mayer-split-screen-sadness.jpg"
 image_alt: "A personal doodle illustration selected for this voice."
 image_credit: "Drawing by Greg Conrad Smith, 2026."
-categories:
-  - Creativity
-  - Literature
 ---
-
 'Cause I can't wait to figure out what's wrong with me
 
 So I can say this is the way that I used to be

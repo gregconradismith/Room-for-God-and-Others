@@ -1,5 +1,4 @@
 ---
-
 layout: quote
 title: "William James"
 date: 2026-04-27
@@ -7,12 +6,7 @@ excerpt: "As for me, my bed is made: I am against bigness and greatness in all t
 image: "/assets/images/quotes/william-james.jpg"
 image_alt: "A personal doodle illustration selected for this voice."
 image_credit: "Drawing by the author’s child, 2026."
-categories:
-  - Human Flourishing
-  - Communication
-  - Literature
 ---
-
 As for me, my bed is made: I am against bigness and greatness in all their forms, and with the invisible molecular forces that work from individual to individual, stealing through the crannies of the world like so many soft rootlets, or like the capillary oozing of water, and yet rending the hardest monuments of men's pride, if you give them time.
 
 The bigger the unit you deal with, the hollower, the more brutal, the more mendacious is the life displayed.

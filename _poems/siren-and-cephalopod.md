@@ -1,5 +1,4 @@
 ---
-
 layout: poem
 title: "Siren and Cephalopod"
 date: 2026-06-14
@@ -8,13 +7,7 @@ image: /assets/images/poems/siren-and-cephalopod.jpg
 image_alt: "A storm-dark shore with shipwreck debris, a distant siren silhouette, and hidden tentacles under water."
 image_credit: "Photo by Panos Lambis"
 image_credit_url: "http://www.palap.co.uk/"
-categories:
-  - Communication
-  - Writing
-  - Literature
-  - Creativity
 ---
-
 <p class="poem-note">(After reading Philip Larkin's <em>Mythical Introduction</em>)</p>
 
 <div class="verse">

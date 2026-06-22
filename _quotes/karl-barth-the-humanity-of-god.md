@@ -1,5 +1,4 @@
 ---
-
 layout: quote
 title: "Karl Barth, The Humanity of God"
 date: 2026-04-27
@@ -7,13 +6,7 @@ excerpt: "The Gift of Freedom. Foundation of Evangelical Ethics."
 image: "/assets/images/quotes/karl-barth-the-humanity-of-god.jpg"
 image_alt: "A personal doodle illustration selected for this voice."
 image_credit: "Drawing by the author’s child, 2026."
-categories:
-  - Faith
-  - Christianity
-  - Human Flourishing
-  - Literature
 ---
-
 The Gift of Freedom. Foundation of Evangelical Ethics.
 
 It is my task to discuss the gift of freedom, and to do so with the foundation of evangelical ethics in view. Let me anticipate the solution to the problem inherent in this theme in three summary propositions. The first describes the freedom which God Himself possesses; the second delineates it as the gift bestowed by God upon man; the third relates the consequences of these two to the problem of the foundation of evangelical ethics.

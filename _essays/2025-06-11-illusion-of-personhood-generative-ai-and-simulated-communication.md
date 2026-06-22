@@ -1,5 +1,4 @@
 ---
-
 layout: essay
 title: "The Illusion of Personhood: Generative AI and Simulated Communication"
 date: 2025-06-11
@@ -10,15 +9,7 @@ excerpt: "Generative AI systems imitate human dialogue, creating the illusion of
 image: /assets/images/essays/illusion-of-personhood-generative-ai-and-simulated-communication.jpg
 image_alt: "An empty chair facing a glowing screen with an ambiguous human-like reflection."
 image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
-categories:
-  - AI
-  - Science
-  - Human Flourishing
-  - Communication
-  - Writing
-  - Psychology
 ---
-
 AI takes different forms. Artificial general intelligence (AGI) refers to computational tools capable of general-purpose reasoning. AGI research is as ambitious and speculative as efforts to build quantum computers.
 
 A second type of AI is predictive artificial intelligence.  These systems are widely used to forecast outcomes or classify inputs based on patterns learned from data. Common examples include recommendation engines (e.g., Netflix, Amazon), credit scoring systems, diagnostic tools in healthcare, and predictive maintenance in industry. While predictive AI offers benefits, its deployment in critical domains, such as the criminal justice system, may reduce transparency in decision-making and limit the ability of affected individuals to challenge outcomes.

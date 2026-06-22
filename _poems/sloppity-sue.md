@@ -1,5 +1,4 @@
 ---
-
 layout: poem
 title: "Sloppity Sue"
 date: 2026-06-14
@@ -7,12 +6,7 @@ excerpt: "A poem beginning: “I once knew a girl by the name (this is true)”"
 image: /assets/images/poems/sloppity-sue.jpg
 image_alt: "A riverside dock with a giant sticky pot, oar, shoes, and a round blob of goo."
 image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
-categories:
-  - Humor
-  - Literature
-  - Creativity
 ---
-
 <div class="verse">
 I once knew a girl by the name (this is true)
 Of Slippity Sloppity Sluppity Sue.

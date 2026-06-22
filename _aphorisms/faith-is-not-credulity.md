@@ -1,5 +1,4 @@
 ---
-
 layout: aphorism
 title: "Faith is not credulity"
 date: 2026-06-20
@@ -8,12 +7,7 @@ excerpt: "Faith is the evidence of things unseen, not a refuge from what is demo
 image: "/assets/images/quotes/gdcs.jpg"
 image_alt: "A personal doodle illustration selected for this saying."
 image_credit: "Drawing by Greg Conrad Smith, 2026."
-categories:
-  - Faith
-  - Human Flourishing
-  - Writing
 ---
-
 Faith is the evidence of things unseen, not a refuge from what is demonstrable or inferred.
 
 Faith is not credulity.

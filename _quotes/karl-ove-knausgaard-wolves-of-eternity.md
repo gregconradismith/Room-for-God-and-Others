@@ -1,5 +1,4 @@
 ---
-
 layout: quote
 title: "Karl Ove Knausgaard, Wolves of Eternity"
 date: 2026-04-27
@@ -7,12 +6,7 @@ excerpt: "\"Why are you reading when you don't have to?\" Sevoshka would often s
 image: "/assets/images/quotes/karl-ove-knausgaard-wolves-of-eternity.jpg"
 image_alt: "A personal doodle illustration selected for this voice."
 image_credit: "Photograph by Greg Conrad Smith of artwork, 2026."
-categories:
-  - Human Flourishing
-  - Literature
-  - Education
 ---
-
 "Why are you reading when you don't have to?" Sevoshka would often say to me [Alevtina] whenever I sat down with a book on some subject or other that was completely alien to him.
 
 "You were the sort who actually liked school, weren't you?" I explained to him then that I liked learning and that it had to do with the world, not school.

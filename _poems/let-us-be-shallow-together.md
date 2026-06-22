@@ -1,5 +1,4 @@
 ---
-
 layout: poem
 title: "Let Us Be Shallow Together"
 date: 2026-06-14
@@ -7,15 +6,7 @@ excerpt: "A poem beginning: “Come, let us be shallow together”"
 image: /assets/images/poems/let-us-be-shallow-together.jpg
 image_alt: "Two people in bright pajamas laughing by touching kayaks and rising bubbles."
 image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
-categories:
-  - Faith
-  - Human Flourishing
-  - Communication
-  - Humor
-  - Literature
-  - Creativity
 ---
-
 <div class="verse">
 Come, let us be shallow together
 And swing in the wild hammock

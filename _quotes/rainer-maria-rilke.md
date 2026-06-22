@@ -1,5 +1,4 @@
 ---
-
 layout: quote
 title: "Rainer Maria Rilke"
 date: 2026-04-27
@@ -7,12 +6,7 @@ excerpt: "How surely gravity's law, strong as an ocean current, takes hold of th
 image: "/assets/images/quotes/rainer-maria-rilke.jpg"
 image_alt: "A personal doodle illustration selected for this voice."
 image_credit: "Drawing by Greg Conrad Smith, 2026."
-categories:
-  - Faith
-  - Writing
-  - Literature
 ---
-
 How surely gravity's law, strong as an ocean current, takes hold of the smallest thing and pulls it toward the heart of the world.
 
 Each thing– each stone, blossom, child– is held in place.
