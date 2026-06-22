@@ -1,25 +1,9 @@
-<section class="home-section writing-browser" aria-labelledby="writing-browser-title" data-writing-browser>
-  <div class="section-heading">
-    <p class="eyebrow">Find writing</p>
-    <h2 id="writing-browser-title">Search</h2>
-  </div>
-
+<section class="writing-browser" aria-labelledby="writing-browser-title" data-writing-browser>
   <div class="browser-controls">
     <label class="browser-search">
-      <span>Search</span>
+      <span id="writing-browser-title">Search</span>
       <input type="search" data-browser-search placeholder="essays, poetry, sayings, reflections, voices">
     </label>
-    <div class="browser-category">
-      <button class="category-toggle" type="button" aria-expanded="false" data-category-toggle>Category</button>
-      <div class="category-panel-menu" hidden data-category-panel>
-        {% for category in site.data.writing_categories %}
-          <label>
-            <input type="checkbox" value="{{ category | escape }}" data-category-filter>
-            <span>{{ category | escape }}</span>
-          </label>
-        {% endfor %}
-      </div>
-    </div>
   </div>
 
   <p class="browser-status" data-browser-status>Search all writing or choose a category.</p>

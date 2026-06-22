@@ -13,44 +13,49 @@
   }
 
   onReady(function () {
+    Array.prototype.forEach.call(document.querySelectorAll("[data-nav-category]"), function (navCategory) {
+      var toggle = navCategory.querySelector("[data-category-toggle]");
+      var panel = navCategory.querySelector("[data-category-panel]");
+
+      if (!toggle || !panel) {
+        return;
+      }
+
+      toggle.addEventListener("click", function () {
+        var expanded = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", expanded ? "false" : "true");
+        panel.hidden = expanded;
+      });
+    });
+
     var browser = document.querySelector("[data-writing-browser]");
     if (!browser) {
       return;
     }
 
     var search = browser.querySelector("[data-browser-search]");
-    var toggle = browser.querySelector("[data-category-toggle]");
-    var panel = browser.querySelector("[data-category-panel]");
     var status = browser.querySelector("[data-browser-status]");
     var items = Array.prototype.slice.call(browser.querySelectorAll("[data-browser-item]"));
-    var filters = Array.prototype.slice.call(browser.querySelectorAll("[data-category-filter]"));
+    var params = new URLSearchParams(window.location.search);
+    var selectedCategory = params.get("category") || "";
 
-    function activeCategories() {
-      return filters
-        .filter(function (filter) { return filter.checked; })
-        .map(function (filter) { return filter.value; });
-    }
-
-    function matchesCategory(item, categories) {
-      if (!categories.length) {
+    function matchesCategory(item, category) {
+      if (!category) {
         return true;
       }
 
       var itemCategories = (item.getAttribute("data-categories") || "").split("|");
-      return categories.some(function (category) {
-        return itemCategories.indexOf(category) !== -1;
-      });
+      return itemCategories.indexOf(category) !== -1;
     }
 
     function updateResults() {
       var query = normalized(search ? search.value : "");
-      var categories = activeCategories();
-      var hasFilter = query.length > 0 || categories.length > 0;
+      var hasFilter = query.length > 0 || selectedCategory.length > 0;
       var visible = 0;
 
       items.forEach(function (item) {
         var textMatch = !query || normalized(item.getAttribute("data-search")).indexOf(query) !== -1;
-        var categoryMatch = matchesCategory(item, categories);
+        var categoryMatch = matchesCategory(item, selectedCategory);
         var show = hasFilter && textMatch && categoryMatch;
 
         item.hidden = !show;
@@ -64,29 +69,21 @@
       }
 
       if (!hasFilter) {
-        status.textContent = "Search all writing or choose a category.";
+        status.textContent = "Enter a search term or choose Category from the navigation.";
       } else if (visible === 1) {
-        status.textContent = "1 result";
+        status.textContent = selectedCategory ? "1 result in " + selectedCategory : "1 result";
       } else {
-        status.textContent = visible + " results";
+        status.textContent = selectedCategory ? visible + " results in " + selectedCategory : visible + " results";
       }
     }
 
-    if (toggle && panel) {
-      toggle.addEventListener("click", function () {
-        var expanded = toggle.getAttribute("aria-expanded") === "true";
-        toggle.setAttribute("aria-expanded", expanded ? "false" : "true");
-        panel.hidden = expanded;
-      });
+    if (search && params.get("q")) {
+      search.value = params.get("q");
     }
 
     if (search) {
       search.addEventListener("input", updateResults);
     }
-
-    filters.forEach(function (filter) {
-      filter.addEventListener("change", updateResults);
-    });
 
     updateResults();
   });

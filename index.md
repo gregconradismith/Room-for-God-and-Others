@@ -12,16 +12,7 @@ title: Home
   <img class="hero-mark" src="{{ '/assets/images/g-symbol-bw.png' | relative_url }}" alt="" aria-hidden="true">
 </section>
 
-<nav class="site-nav home-nav" aria-label="Writing categories">
-  <a href="{{ '/about/' | relative_url }}">About</a>
-  <a href="{{ '/essays/' | relative_url }}">Essays</a>
-  <a href="{{ '/poetry/' | relative_url }}">Poetry</a>
-  <a href="{{ '/sayings/' | relative_url }}">Sayings</a>
-  <a href="{{ '/reflections/' | relative_url }}">Reflections</a>
-  <a href="{{ '/voices/' | relative_url }}">Voices</a>
-</nav>
-
-{% include writing-browser.html %}
+{% include site-nav.html extra_class="home-nav" %}
 
 <section class="home-section daily-quote-section" aria-label="Voice of the day">
   {% include daily-quote.html compact=true heading="Voice of the day" %}

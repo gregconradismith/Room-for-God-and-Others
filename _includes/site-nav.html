@@ -1,0 +1,18 @@
+<nav class="site-nav{% if include.extra_class %} {{ include.extra_class }}{% endif %}" aria-label="Writing categories">
+  <a href="{{ '/about/' | relative_url }}">About</a>
+  <a href="{{ '/essays/' | relative_url }}">Essays</a>
+  <a href="{{ '/poetry/' | relative_url }}">Poetry</a>
+  <a href="{{ '/sayings/' | relative_url }}">Sayings</a>
+  <a href="{{ '/reflections/' | relative_url }}">Reflections</a>
+  <a href="{{ '/voices/' | relative_url }}">Voices</a>
+  <div class="nav-dropdown" data-nav-category>
+    <button class="nav-button" type="button" aria-expanded="false" data-category-toggle>Categories</button>
+    <div class="category-panel-menu nav-category-menu" hidden data-category-panel>
+      {% for category in site.data.writing_categories %}
+        {% assign category_param = category | replace: " ", "%20" %}
+        <a href="{{ '/search/' | relative_url }}?category={{ category_param }}">{{ category | escape }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <a class="nav-button" href="{{ '/search/' | relative_url }}">Search</a>
+</nav>

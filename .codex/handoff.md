@@ -51,8 +51,11 @@ pages, images, and small Ruby helper scripts for the Pages workflow.
   Aphorisms/Blurbs/Quotations to Sayings/Reflections/Voices. The internal
   collection keys and existing asset folders remain `_aphorisms`, `_blurbs`,
   `_quotes`, `assets/images/quotes`, and `assets/images/blurbs`.
-- The homepage now includes a search and category filter browser. Browser
-  result order is essays, poetry, sayings, reflections, voices.
+- The site includes a search and category filter browser. Browser result order
+  is essays, poetry, sayings, reflections, voices.
+- On 2026-06-21, the search browser moved from the homepage to `/search/`.
+  `Search` and `Categories` now appear as matching green controls at the end of
+  the main navigation. Category menu items link into `/search/?category=...`.
 - Topic categories live in `_data/writing_categories.yml`; content items have
   multi-valued `categories:` front matter for filtering.
 - `scripts/validate_content.rb` checks YAML front matter and image references.

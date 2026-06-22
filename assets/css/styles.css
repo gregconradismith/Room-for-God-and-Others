@@ -90,7 +90,8 @@ a:hover {
   white-space: nowrap;
 }
 
-.site-nav a {
+.site-nav > a,
+.site-nav .nav-button {
   background: linear-gradient(180deg, #fffdf8, #ece7da);
   border: 1px solid #8f8674;
   border-radius: 6px;
@@ -119,8 +120,10 @@ a:hover {
     box-shadow 160ms ease;
 }
 
-.site-nav a:hover,
-.site-nav a:focus-visible {
+.site-nav > a:hover,
+.site-nav > a:focus-visible,
+.site-nav .nav-button:hover,
+.site-nav .nav-button:focus-visible {
   background: var(--accent);
   border-color: var(--accent);
   box-shadow:
@@ -129,6 +132,62 @@ a:hover {
     0 0 0 1px rgba(255, 253, 248, 0.8),
     0 7px 18px rgba(143, 63, 47, 0.26);
   color: var(--white);
+  outline: 0;
+}
+
+.site-nav .nav-button {
+  cursor: pointer;
+  min-height: 0;
+}
+
+.site-nav > a.nav-button,
+.site-nav .nav-dropdown > .nav-button {
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  box-shadow:
+    inset 0 0 0 2px rgba(255, 253, 248, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 0 0 1px rgba(255, 253, 248, 0.82),
+    0 4px 12px rgba(36, 36, 34, 0.14);
+  color: var(--white);
+}
+
+.nav-dropdown {
+  display: flex;
+  flex: 1 1 0;
+  min-width: 0;
+  position: relative;
+}
+
+.nav-dropdown > .nav-button {
+  width: 100%;
+}
+
+.nav-category-menu {
+  top: calc(100% + 8px);
+}
+
+.site-nav .nav-category-menu a {
+  border-bottom: 1px solid var(--line);
+  color: var(--soft-ink);
+  display: block;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.86rem;
+  font-weight: 650;
+  letter-spacing: 0;
+  line-height: 1.2;
+  padding: 8px 4px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.site-nav .nav-category-menu a:last-child {
+  border-bottom: 0;
+}
+
+.site-nav .nav-category-menu a:hover,
+.site-nav .nav-category-menu a:focus-visible {
+  color: var(--accent-2);
   outline: 0;
 }
 
@@ -1019,7 +1078,8 @@ figcaption {
     padding: 7px 6px;
   }
 
-  .site-nav a {
+  .site-nav > a,
+  .site-nav .nav-button {
     flex: 1 1 0;
     font-size: clamp(0.56rem, 2.2vw, 0.72rem);
     letter-spacing: 0.04em;
@@ -1167,7 +1227,8 @@ figcaption {
 }
 
 @media (max-width: 380px) {
-  .site-nav a {
+  .site-nav > a,
+  .site-nav .nav-button {
     font-size: 0.5rem;
     letter-spacing: 0.01em;
     padding-left: 2px;

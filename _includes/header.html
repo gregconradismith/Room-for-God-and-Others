@@ -4,13 +4,6 @@
       <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
       <p>{{ site.description | escape }}</p>
     </div>
-    <nav class="site-nav" aria-label="Writing categories">
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/essays/' | relative_url }}">Essays</a>
-      <a href="{{ '/poetry/' | relative_url }}">Poetry</a>
-      <a href="{{ '/sayings/' | relative_url }}">Sayings</a>
-      <a href="{{ '/reflections/' | relative_url }}">Reflections</a>
-      <a href="{{ '/voices/' | relative_url }}">Voices</a>
-    </nav>
+    {% include site-nav.html %}
   </header>
 {% endunless %}
