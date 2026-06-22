@@ -5,6 +5,7 @@ title: Home
 
 <section class="hero" aria-labelledby="home-title">
   <div class="hero-copy">
+    <p class="eyebrow">Thoughts on science, faith, and public life</p>
     <h1 id="home-title">Room for God &amp; Others</h1>
     <p>Greg Conradi Smith</p>
   </div>
