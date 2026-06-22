@@ -1,11 +1,11 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Eco on fascism sounds to me like Trump"
 date: 2026-04-27
 excerpt: "The other day I used the word “fascist” and midspeech I confessed that did not know what the word meant. Turning to Wikipedia’s definitions of fascism, most of my questions were no"
-image: "/assets/images/blurbs/eco-on-fascism-sounds-to-me-like-trump.jpg"
-image_alt: "A personal doodle illustration selected for this reflection."
+image: "/assets/images/thoughts/eco-on-fascism-sounds-to-me-like-trump.jpg"
+image_alt: "A personal doodle illustration selected for this thought."
 image_credit: "Photograph by Greg Conrad Smith of artwork, 2026."
 categories:
   - Science

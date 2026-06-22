@@ -1,11 +1,11 @@
 ---
 
-layout: blurb
+layout: thought
 title: "I struggled to read as a child"
 date: 2026-04-27
 excerpt: "I struggled to read as a child. I could follow the directions to build an Estes model rocket, but I had difficulty comprehending long-form texts. In second grade I was frustrated w"
-image: "/assets/images/blurbs/i-struggled-to-read-as-a-child.jpg"
-image_alt: "A personal doodle illustration selected for this reflection."
+image: "/assets/images/thoughts/i-struggled-to-read-as-a-child.jpg"
+image_alt: "A personal doodle illustration selected for this thought."
 image_credit: "Drawing by Greg Conrad Smith, 2026."
 categories:
   - Human Flourishing

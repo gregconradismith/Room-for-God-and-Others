@@ -1,6 +1,6 @@
 ---
 
-layout: blurb
+layout: thought
 title: "What to write and the question of voice"
 date: 2026-04-27
 excerpt: "What I see in these books is a person writing frankly from a personal perspective, including their professional identity, to clarify or comment on the world."

@@ -1,6 +1,6 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Three enemies"
 date: 2026-06-21
 source: "Greg Conradi Smith"

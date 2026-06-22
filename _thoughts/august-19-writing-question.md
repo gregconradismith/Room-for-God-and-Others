@@ -1,6 +1,6 @@
 ---
 
-layout: blurb
+layout: thought
 title: "August 19 writing question"
 date: 2026-06-21
 source: "Greg Conradi Smith"

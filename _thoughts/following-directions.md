@@ -1,11 +1,11 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Following directions"
 date: 2026-04-27
 excerpt: "Ms. _____, my 4th-grade teacher, passed out an exam that was impossible to complete in the time allotted."
-image: "/assets/images/blurbs/following-directions.jpg"
-image_alt: "A personal doodle illustration selected for this reflection."
+image: "/assets/images/thoughts/following-directions.jpg"
+image_alt: "A personal doodle illustration selected for this thought."
 image_credit: "Photograph by Greg Conrad Smith of artwork, 2026."
 categories:
   - Communication

@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<article class="work blurb-work">
+<article class="work thought-work">
   <header class="work-header">
-    <a class="return-link" href="{{ '/reflections/' | relative_url }}">Reflections</a>
-    <p class="eyebrow">Reflection</p>
+    <a class="return-link" href="{{ '/thoughts/' | relative_url }}">Thoughts</a>
+    <p class="eyebrow">Thought</p>
     <h1>{{ page.title | escape }}</h1>
     {% include category-list.html item=page %}
     {% include feature-image.html %}
   </header>
-  <div class="prose blurb-body">
+  <div class="prose thought-body">
     {{ content }}
   </div>
 </article>

@@ -211,7 +211,7 @@ a:hover {
   display: grid;
   gap: clamp(28px, 5vw, 72px);
   grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
-  min-height: clamp(420px, 62vh, 640px);
+  min-height: clamp(294px, 43.4vh, 448px);
   padding: 92px max(24px, calc((100vw - var(--max)) / 2)) 58px;
 }
 
@@ -270,7 +270,7 @@ h1 {
 }
 
 .hero h1 {
-  font-size: 5.4rem;
+  font-size: 3.78rem;
   max-width: none;
   white-space: normal;
 }
@@ -909,7 +909,7 @@ h3 {
   max-width: 940px;
 }
 
-.blurb-work {
+.thought-work {
   max-width: 980px;
 }
 
@@ -919,7 +919,7 @@ h3 {
   padding-left: 28px;
 }
 
-.blurb-body {
+.thought-body {
   border-left: 4px solid var(--accent-2);
   font-size: 1.08rem;
   padding-left: 28px;
@@ -930,12 +930,12 @@ h3 {
 }
 
 .quote-item,
-.blurb-item {
+.thought-item {
   grid-template-columns: 52px minmax(0, 1fr);
 }
 
 .quote-item.has-thumbnail,
-.blurb-item.has-thumbnail {
+.thought-item.has-thumbnail {
   grid-template-columns: 52px minmax(0, 1fr) 176px;
 }
 
@@ -1061,7 +1061,7 @@ figcaption {
   }
 
   .hero h1 {
-    font-size: 4.5rem;
+    font-size: 3.15rem;
   }
 }
 
@@ -1101,12 +1101,12 @@ figcaption {
   .hero {
     align-items: start;
     grid-template-columns: minmax(0, 1fr);
-    min-height: 520px;
+    min-height: 364px;
     padding-bottom: 42px;
   }
 
   .hero h1 {
-    font-size: 3.2rem;
+    font-size: 2.24rem;
     white-space: normal;
   }
 
@@ -1162,7 +1162,7 @@ figcaption {
   }
 
   .quote-item.has-thumbnail,
-  .blurb-item.has-thumbnail {
+  .thought-item.has-thumbnail {
     grid-template-columns: 52px minmax(0, 1fr) 152px;
   }
 
@@ -1178,7 +1178,7 @@ figcaption {
 
 @media (max-width: 560px) {
   .hero h1 {
-    font-size: 1.72rem;
+    font-size: 1.204rem;
   }
 
   .hero-mark {
@@ -1190,7 +1190,7 @@ figcaption {
   .archive-item,
   .archive-item.has-thumbnail,
   .quote-item.has-thumbnail,
-  .blurb-item.has-thumbnail {
+  .thought-item.has-thumbnail {
     grid-template-columns: 1fr;
   }
 
@@ -1247,6 +1247,6 @@ figcaption {
   }
 
   .hero h1 {
-    font-size: 1.4rem;
+    font-size: 0.98rem;
   }
 }

@@ -2,11 +2,11 @@
   <div class="browser-controls">
     <label class="browser-search">
       <span id="writing-browser-title">Search</span>
-      <input type="search" data-browser-search placeholder="essays, poetry, sayings, reflections, voices">
+      <input type="search" data-browser-search placeholder="essays, poetry, sayings, thoughts, voices">
     </label>
   </div>
 
-  <p class="browser-status" data-browser-status>Search all writing or choose a category.</p>
+  <p class="browser-status" data-browser-status>Search all writing or choose a theme.</p>
 
   <div class="browser-results" data-browser-results>
     {% assign browser_essays = site.essays | sort: "date" | reverse %}
@@ -24,9 +24,9 @@
       {% include writing-browser-item.html item=item type="Saying" %}
     {% endfor %}
 
-    {% assign browser_reflections = site.blurbs | sort: "title" %}
-    {% for item in browser_reflections %}
-      {% include writing-browser-item.html item=item type="Reflection" %}
+    {% assign browser_thoughts = site.thoughts | sort: "title" %}
+    {% for item in browser_thoughts %}
+      {% include writing-browser-item.html item=item type="Thought" %}
     {% endfor %}
 
     {% assign browser_voices = site.quotes | sort: "title" %}

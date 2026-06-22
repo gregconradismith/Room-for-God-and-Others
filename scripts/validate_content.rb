@@ -6,7 +6,7 @@ require "date"
 require "yaml"
 
 ROOT = Pathname.new(__dir__).parent
-CONTENT_GLOBS = %w[_essays/*.md _poems/*.md _aphorisms/*.md _quotes/*.md _blurbs/*.md *.md].freeze
+CONTENT_GLOBS = %w[_essays/*.md _poems/*.md _aphorisms/*.md _quotes/*.md _thoughts/*.md *.md].freeze
 
 errors = []
 

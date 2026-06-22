@@ -1,6 +1,6 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Another room for science method"
 date: 2026-06-21
 source: "Greg Conradi Smith"

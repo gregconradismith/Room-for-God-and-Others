@@ -1,11 +1,11 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Democracy and the invisible hand"
 date: 2026-04-27
 excerpt: "Can we really expect democracy to work when so many people are not even trying?"
-image: "/assets/images/blurbs/democracy-and-the-invisible-hand.jpg"
-image_alt: "A personal doodle illustration selected for this reflection."
+image: "/assets/images/thoughts/democracy-and-the-invisible-hand.jpg"
+image_alt: "A personal doodle illustration selected for this thought."
 image_credit: "Photograph by Greg Conrad Smith of artwork, 2026."
 categories:
   - Human Flourishing

@@ -1,6 +1,6 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Writing and open questions"
 date: 2026-06-20
 source: "Greg Conradi Smith"

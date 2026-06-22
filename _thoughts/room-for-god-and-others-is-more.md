@@ -1,6 +1,6 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Room for God and Others is more vision than discursive thought"
 date: 2026-04-27
 excerpt: "Room for God and Others is more vision than discursive thought. The book is not an argument, but a story."

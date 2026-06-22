@@ -1,5 +1,5 @@
 title: "Room for God & Others"
-description: "Essays, poems, journal fragments, sayings, reflections, and voices."
+description: "Essays, poems, journal fragments, sayings, thoughts, and voices."
 url: "https://gregconradismith.github.io"
 baseurl: "/room-for-god-and-others"
 lang: en
@@ -29,9 +29,9 @@ collections:
   quotes:
     output: true
     permalink: /voices/:name/
-  blurbs:
+  thoughts:
     output: true
-    permalink: /reflections/:name/
+    permalink: /thoughts/:name/
 
 defaults:
   - scope:
@@ -57,9 +57,9 @@ defaults:
       layout: quote
   - scope:
       path: ""
-      type: blurbs
+      type: thoughts
     values:
-      layout: blurb
+      layout: thought
 
 markdown: kramdown
 kramdown:

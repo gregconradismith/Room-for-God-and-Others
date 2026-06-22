@@ -1,6 +1,6 @@
 # Room for God & Others
 
-A writing-focused static site for essays, poetry, journal notes, sayings, reflections, and favorite voices.
+A writing-focused static site for essays, poetry, journal notes, sayings, thoughts, and favorite voices.
 
 Live site: https://gregconradismith.github.io/room-for-god-and-others/
 
@@ -10,10 +10,10 @@ This repository is set up as a small Jekyll site, which GitHub Pages can build d
 
 - Essays live in `_essays/` as dated Markdown files.
 - Poems live in `_poems/` as Markdown files.
-- Reflections live in `_blurbs/` as Markdown files.
+- Thoughts live in `_thoughts/` as Markdown files.
 - Sayings live in `_aphorisms/` as Markdown files.
 - Voices live in `_quotes/` as Markdown files.
-- Shared pages live at the repository root, such as `about.md`, `essays.md`, `poetry.md`, `reflections.md`, `sayings.md`, and `voices.md`.
+- Shared pages live at the repository root, such as `about.md`, `essays.md`, `poetry.md`, `sayings.md`, `thoughts.md`, and `voices.md`.
 - `voice-of-the-day.md` selects a voice from `_quotes/` each time the site builds, and `/voices/feed.xml` exposes the voice archive as RSS.
 
 Create a new essay with a file name like:
@@ -40,7 +40,7 @@ excerpt: "A short summary for listing pages."
 ---
 ```
 
-For poems, use `layout: poem`. For sayings, use `layout: aphorism`. For voices, use `layout: quote`. For reflections, use `layout: blurb`.
+For poems, use `layout: poem`. For sayings, use `layout: aphorism`. For voices, use `layout: quote`. For thoughts, use `layout: thought`.
 
 Images are rendered from front matter when `image` is set. Use `image_alt` for accessible alt text, and optionally use `image_position` to adjust thumbnail cropping:
 

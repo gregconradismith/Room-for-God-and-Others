@@ -6,7 +6,13 @@
       {% if page.image_position %}style="object-position: {{ page.image_position | escape }};"{% endif %}
     >
     {% if page.image_credit %}
-      <figcaption>{{ page.image_credit | escape }}</figcaption>
+      <figcaption>
+        {% if page.image_credit_url %}
+          <a href="{{ page.image_credit_url | escape }}">{{ page.image_credit | escape }}</a>
+        {% else %}
+          {{ page.image_credit | escape }}
+        {% endif %}
+      </figcaption>
     {% endif %}
   </figure>
 {% endif %}

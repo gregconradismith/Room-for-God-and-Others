@@ -1,6 +1,6 @@
 ---
 
-layout: blurb
+layout: thought
 title: "Responsible faith"
 date: 2026-06-21
 source: "Greg Conradi Smith"

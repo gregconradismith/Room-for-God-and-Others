@@ -1,11 +1,11 @@
 ---
 
-layout: blurb
+layout: thought
 title: "I have been enjoying Timothy Snyder’s YouTube"
 date: 2026-04-27
 excerpt: "I have been enjoying Timothy Snyder’s YouTube videos. In one of them, he introduced the term “totalitarianism” to a discussion of populism, oligarchy, and authoritarianism. His def"
-image: "/assets/images/blurbs/i-have-been-enjoying-timothy-snyders-youtube.jpg"
-image_alt: "A personal doodle illustration selected for this reflection."
+image: "/assets/images/thoughts/i-have-been-enjoying-timothy-snyders-youtube.jpg"
+image_alt: "A personal doodle illustration selected for this thought."
 image_credit: "Drawing by Greg Conrad Smith, 2026."
 categories:
   - Faith

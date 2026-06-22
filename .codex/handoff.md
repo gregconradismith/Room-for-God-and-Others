@@ -21,7 +21,7 @@ site:
 
 https://gregconradismith.github.io/room-for-god-and-others/
 
-It contains public essays, poems, reflections, sayings, favorite voices, shared
+It contains public essays, poems, thoughts, sayings, favorite voices, shared
 pages, images, and small Ruby helper scripts for the Pages workflow.
 
 ## High-Value Context
@@ -48,11 +48,11 @@ pages, images, and small Ruby helper scripts for the Pages workflow.
   during the workflow; `_data/featured_writing.yml` is the committed fallback
   snapshot.
 - On 2026-06-21, public labels and URLs were changed from
-  Aphorisms/Blurbs/Quotations to Sayings/Reflections/Voices. The internal
-  collection keys and existing asset folders remain `_aphorisms`, `_blurbs`,
-  `_quotes`, `assets/images/quotes`, and `assets/images/blurbs`.
+  Aphorisms/Thoughts/Quotations to Sayings/Thoughts/Voices. The internal
+  collection keys and existing asset folders remain `_aphorisms`, `_thoughts`,
+  `_quotes`, `assets/images/quotes`, and `assets/images/thoughts`.
 - The site includes a search and category filter browser. Browser result order
-  is essays, poetry, sayings, reflections, voices.
+  is essays, poetry, sayings, thoughts, voices.
 - On 2026-06-21, the search browser moved from the homepage to `/search/`.
   `Search` and `Categories` now appear as matching green controls at the end of
   the main navigation. Category menu items link into `/search/?category=...`.
