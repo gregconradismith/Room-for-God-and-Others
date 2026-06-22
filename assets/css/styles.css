@@ -154,12 +154,17 @@ a:hover {
 
 .nav-dropdown {
   display: flex;
-  flex: 1 1 0;
+  flex: 1.35 1 0;
   min-width: 0;
   position: relative;
 }
 
+.site-nav > a.nav-button {
+  flex: 1.2 1 0;
+}
+
 .nav-dropdown > .nav-button {
+  min-width: 104px;
   width: 100%;
 }
 
@@ -1085,6 +1090,15 @@ figcaption {
     letter-spacing: 0.04em;
     min-width: 0;
     padding: 7px 3px 6px;
+  }
+
+  .nav-dropdown,
+  .site-nav > a.nav-button {
+    flex: 1.35 1 0;
+  }
+
+  .nav-dropdown > .nav-button {
+    min-width: 0;
   }
 
   .hero {
