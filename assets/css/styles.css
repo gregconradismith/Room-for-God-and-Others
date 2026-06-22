@@ -210,8 +210,8 @@ a:hover {
   border-bottom: 1px solid var(--line);
   display: grid;
   gap: clamp(28px, 5vw, 72px);
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 360px);
-  min-height: clamp(294px, 43.4vh, 448px);
+  grid-template-columns: minmax(0, 1fr) minmax(154px, 252px);
+  min-height: clamp(206px, 30.38vh, 314px);
   padding: 92px max(24px, calc((100vw - var(--max)) / 2)) 58px;
 }
 
@@ -228,9 +228,9 @@ a:hover {
   box-shadow: 0 22px 70px rgba(0, 0, 0, 0.24);
   display: block;
   justify-self: end;
-  max-width: min(32vw, 360px);
+  max-width: min(22.4vw, 252px);
   opacity: 0.86;
-  padding: clamp(10px, 1.4vw, 18px);
+  padding: clamp(7px, 0.98vw, 13px);
   width: 100%;
 }
 
@@ -1057,7 +1057,7 @@ figcaption {
 
 @media (max-width: 1040px) {
   .hero {
-    grid-template-columns: minmax(0, 1fr) minmax(180px, 280px);
+    grid-template-columns: minmax(0, 1fr) minmax(126px, 196px);
   }
 
   .hero h1 {
@@ -1101,7 +1101,7 @@ figcaption {
   .hero {
     align-items: start;
     grid-template-columns: minmax(0, 1fr);
-    min-height: 364px;
+    min-height: 255px;
     padding-bottom: 42px;
   }
 
@@ -1112,7 +1112,7 @@ figcaption {
 
   .hero-mark {
     justify-self: start;
-    max-width: 190px;
+    max-width: 133px;
     order: -1;
   }
 
@@ -1182,7 +1182,7 @@ figcaption {
   }
 
   .hero-mark {
-    max-width: 150px;
+    max-width: 105px;
   }
 
   .writing-item,
