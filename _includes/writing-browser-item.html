@@ -6,7 +6,5 @@
   <p class="item-type">{{ include.type | escape }}</p>
   <h3><a href="{{ include.item.url | relative_url }}">{{ include.item.title | escape }}</a></h3>
   {% include category-list.html item=include.item %}
-  {% if include.item.excerpt %}
-    <p>{{ include.item.excerpt | strip_html | truncate: 165 | escape }}</p>
-  {% endif %}
+  <p>{{ include.item.description | default: "[description to be written]" | escape }}</p>
 </article>

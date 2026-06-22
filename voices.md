@@ -2,7 +2,8 @@
 layout: page
 title: Voices
 permalink: /voices/
-description: Gathered passages, fragments, and remembered lines.
+description: Quotes and reading notes.
+hide_eyebrow: true
 ---
 
 <div class="archive-tools">

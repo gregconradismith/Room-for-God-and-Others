@@ -3,16 +3,17 @@ layout: page
 title: About
 permalink: /about/
 description: Essays, poems, thoughts, sayings, and voices.
+hide_eyebrow: true
 ---
 
-I am a scientist, teacher, writer, Christian, reader, and person who has spent a lot of time trying to understand why those words do not always fit together easily.
+I am Greg Conradi Smith: a scientist, professor, Christian, reader, writer, and person who has never found those words easy to arrange in a satisfactory order.
 
-Room for God & Others is a place for that attempt.
+I make mathematical models of biological systems for a living. I teach students to reason carefully about cells, equations, data, and mechanisms. I also read theology, poetry, novels, intellectual history, and whatever else seems capable of disturbing a settled opinion. This combination has not made me especially balanced. It has made me suspicious of false choices.
 
-Some of what I write here is about science, faith, higher education, public life, technology, and the strange administrative weather systems that move through universities. Some of it is more personal: poems, fragments, sayings, notes from books, and thoughts that may or may not grow into essays. I am interested in truth, but not only the kind that can be printed in a table. I am interested in expertise, but also in what expertise can miss. I am interested in Christian faith, but not as a shortcut around complexity.
+I do not want to choose between loving science and resisting scientism, between Christian faith and intellectual honesty, between expertise and humility, between political concern and the refusal to be absorbed into somebody else's program. I am interested in truth, not as a slogan, but as something one has to answer to. I am interested in language because language can clarify, conceal, bless, manipulate, amuse, wound, and occasionally tell the truth.
 
-The title is aspirational. I want there to be room for God, room for other people, room for intellectual seriousness, room for doubt, room for beauty, room for the awkward particulars of a life. I do not always know how to hold those things together. This site is one way of trying.
+Room for God & Others is a place for that kind of thinking. Some of the pieces are essays. Some are poems, sayings, notes, quotations, fragments, or scraps that may never become respectable. I am not pretending that these are the same thing. I am giving them a room in common because my mind does not keep them in separate buildings.
 
-I am speaking here as Greg Conradi Smith, not on behalf of my employer, my church, my discipline, or any other institution that might prefer a committee-approved sentence. The opinions are personal. The unfinishedness is also personal.
+The title is aspirational. The left needs room for God. The right needs room for others. The university needs room for thought that has not yet been turned into procedure. The church needs room for reality to be as complex as it is. I need room for doubt, beauty, argument, repentance, humor, and the awkward fact that I am often not as clear, brave, or charitable as I would like to be.
 
-The site is intentionally simple. It is a small room for writing: essays, poetry, thoughts, sayings, and voices I want to keep nearby.
+I am speaking here for myself, not for my employer, my church, my discipline, or any committee that would improve these sentences by making them impossible to remember. The unfinishedness is part of the record.

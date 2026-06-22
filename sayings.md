@@ -2,7 +2,8 @@
 layout: page
 title: Sayings
 permalink: /sayings/
-description: Brief original sayings, fragments, and remembered formulations.
+description: Brief original sayings.
+hide_eyebrow: true
 ---
 
 <div class="archive-list quote-list">

@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
-<article class="page">
+<article class="page{% if page.page_class %} {{ page.page_class | escape }}{% endif %}">
   <header class="page-header">
-    <p class="eyebrow">{{ page.eyebrow | default: "Writing" | escape }}</p>
+    {% unless page.hide_eyebrow %}
+      <p class="eyebrow">{{ page.eyebrow | default: "Writing" | escape }}</p>
+    {% endunless %}
     <h1>{{ page.title | escape }}</h1>
     {% if page.description %}
       <p class="page-description">{{ page.description | escape }}</p>

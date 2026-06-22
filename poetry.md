@@ -2,7 +2,8 @@
 layout: page
 title: Poetry
 permalink: /poetry/
-description: Poems, fragments, prayers, and lyric experiments.
+description: Some attempts at creative writing.
+hide_eyebrow: true
 ---
 
 <div class="archive-list">

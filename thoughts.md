@@ -2,7 +2,8 @@
 layout: page
 title: Thoughts
 permalink: /thoughts/
-description: Short passages, fragments, sketches, and unplaced notes.
+description: Reflections and short passages.
+hide_eyebrow: true
 ---
 
 <div class="archive-list thought-list">

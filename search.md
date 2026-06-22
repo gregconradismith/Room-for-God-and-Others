@@ -2,7 +2,8 @@
 layout: page
 title: Search
 permalink: /search/
-description: Search essays, poetry, sayings, thoughts, and voices.
+description: "[description to be written]"
+page_class: search-page
 ---
 
 {% include writing-browser.html %}

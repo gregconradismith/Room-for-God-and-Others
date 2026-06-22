@@ -3,6 +3,7 @@ layout: page
 title: Essays
 permalink: /essays/
 description: Longer pieces, meditations, and open-journal entries.
+hide_eyebrow: true
 ---
 
 <div class="archive-list">
