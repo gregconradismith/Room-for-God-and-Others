@@ -10,9 +10,6 @@ analytics:
   plausible_domain: ""
   plausible_src: "https://plausible.io/js/script.js"
 
-feedback:
-  enabled: true
-
 author:
   name: "Greg Conrad Smith"
 
