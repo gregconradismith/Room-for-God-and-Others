@@ -13,21 +13,6 @@
   }
 
   onReady(function () {
-    Array.prototype.forEach.call(document.querySelectorAll("[data-nav-category]"), function (navCategory) {
-      var toggle = navCategory.querySelector("[data-category-toggle]");
-      var panel = navCategory.querySelector("[data-category-panel]");
-
-      if (!toggle || !panel) {
-        return;
-      }
-
-      toggle.addEventListener("click", function () {
-        var expanded = toggle.getAttribute("aria-expanded") === "true";
-        toggle.setAttribute("aria-expanded", expanded ? "false" : "true");
-        panel.hidden = expanded;
-      });
-    });
-
     var browser = document.querySelector("[data-writing-browser]");
     if (!browser) {
       return;
@@ -37,7 +22,7 @@
     var status = browser.querySelector("[data-browser-status]");
     var items = Array.prototype.slice.call(browser.querySelectorAll("[data-browser-item]"));
     var params = new URLSearchParams(window.location.search);
-    var selectedCategory = params.get("category") || "";
+    var selectedCategory = browser.getAttribute("data-selected-category") || params.get("category") || "";
 
     function matchesCategory(item, category) {
       if (!category) {
@@ -69,7 +54,7 @@
       }
 
       if (!hasFilter) {
-        status.textContent = "Enter a search term or choose Category from the navigation.";
+        status.textContent = "Enter a search term.";
       } else if (visible === 1) {
         status.textContent = selectedCategory ? "1 result in " + selectedCategory : "1 result";
       } else {

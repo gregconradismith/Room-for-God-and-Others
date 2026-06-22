@@ -13,7 +13,7 @@ This repository is set up as a small Jekyll site, which GitHub Pages can build d
 - Thoughts live in `_thoughts/` as Markdown files.
 - Sayings live in `_aphorisms/` as Markdown files.
 - Voices live in `_quotes/` as Markdown files.
-- Shared pages live at the repository root, such as `about.md`, `essays.md`, `poetry.md`, `sayings.md`, `thoughts.md`, and `voices.md`.
+- Shared pages live at the repository root, such as `about.md`, `essays.md`, `poetry.md`, `sayings.md`, `themes.md`, `thoughts.md`, and `voices.md`.
 - `voice-of-the-day.md` selects a voice from `_quotes/` each time the site builds, and `/voices/feed.xml` exposes the voice archive as RSS.
 
 Create a new essay with a file name like:

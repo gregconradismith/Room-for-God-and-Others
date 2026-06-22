@@ -1,6 +1,18 @@
-- 15% of my brain
-- Biophysical soul
-- Instead of beauty, branding
-- Jesus loves Darwin
-- Read against the machine
-- The all-adminstrative university
+- title: "15% of my brain"
+  slug: 15-percent-of-my-brain
+  description: "Loose fragments, odd associations, private jokes, and the part of thinking that resists being made respectable too quickly."
+- title: "Biophysical soul"
+  slug: biophysical-soul
+  description: "Living bodies, inner lives, consciousness, biology, and the mystery that remains after the measurements are taken."
+- title: "Instead of beauty, branding"
+  slug: instead-of-beauty-branding
+  description: "Art, attention, image-making, institutional self-presentation, and the uneasy replacement of beauty by messaging."
+- title: "Jesus loves Darwin"
+  slug: jesus-loves-darwin
+  description: "Christian faith, evolutionary biology, Scripture, science education, and the false choices people are asked to inherit."
+- title: "Read against the machine"
+  slug: read-against-the-machine
+  description: "Books, language, technology, artificial intelligence, propaganda, and the practice of staying human while reading and writing."
+- title: "The all-adminstrative university"
+  slug: the-all-adminstrative-university
+  description: "Higher education, bureaucracy, managerial culture, faculty life, and the university as a place where thinking still tries to happen."
