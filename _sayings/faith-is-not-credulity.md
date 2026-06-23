@@ -16,4 +16,4 @@ Faith is not credulity.
 
 Faith is a pearl and an open door, not studied ignorance and a closed mind.
 
---Greg Conradi Smith
+<img class="signature-logo" src="https://gregconradismith.github.io/room-for-god-and-others/assets/images/sayings/gdcs-signature.png" alt="Greg Conradi Smith initials logo">

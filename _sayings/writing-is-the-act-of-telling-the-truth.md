@@ -14,4 +14,4 @@ It has been said that writing is an act of hope, an act of courage, but God gave
 
 For me, writing is the act of telling the truth.
 
---Greg Conradi Smith
+<img class="signature-logo" src="https://gregconradismith.github.io/room-for-god-and-others/assets/images/sayings/gdcs-signature.png" alt="Greg Conradi Smith initials logo">
