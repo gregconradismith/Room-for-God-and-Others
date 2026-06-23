@@ -1,6 +1,6 @@
 ---
 layout: saying
-title: "We talk of a personal relationship with"
+title: "We talk of a personal relationship with God"
 date: 2026-06-21
 source: "Greg Conradi Smith"
 excerpt: "We talk of a personal relationship with God."

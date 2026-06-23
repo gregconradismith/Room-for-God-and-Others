@@ -94,11 +94,13 @@ pages, images, and small Ruby helper scripts for the Pages workflow.
 - Greg asked that Codex always commit and push site changes so he can view the
   deployed HTML. After pushing, watch the GitHub Actions Pages workflow until
   the deploy completes whenever possible.
-- A title-confirmation pass is paused. It was started across all authored
-  Markdown content. Item 1 of 127 was confirmed: `_essays/2018-01-01-why-i-am-perhaps-not-an-evangelical.md`
-  with title `Why I Am (Perhaps Not) an Evangelical`. Resume at item 2:
-  `_essays/2025-06-11-illusion-of-personhood-generative-ai-and-simulated-communication.md`
-  with title `The Illusion of Personhood: Generative AI and Simulated Communication`.
+- A title-confirmation pass resumed on 2026-06-23 from item 2. The first
+  corrective pass across authored Markdown fixed obvious visible-title issues:
+  accent marks in several voice titles/source lines, two truncated saying
+  titles, `Science, method, third room`, sentence-case `Scientism is bad
+  religion`, and the theme typo/URL `the-all-administrative-university`.
+  Remaining title work, if any, should be treated as subjective editorial
+  review rather than known mechanical cleanup.
 
 ## Useful Commands
 

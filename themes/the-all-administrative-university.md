@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "The all-adminstrative university"
-permalink: /themes/the-all-adminstrative-university/
+title: "The all-administrative university"
+permalink: /themes/the-all-administrative-university/
 description: "Higher education, bureaucracy, managerial culture, faculty life, and the university as a place where thinking still tries to happen."
 ---
 

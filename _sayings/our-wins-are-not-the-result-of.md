@@ -1,6 +1,6 @@
 ---
 layout: saying
-title: "Our wins are not the result of"
+title: "Our wins are not the result of religious superiority"
 date: 2026-06-21
 source: "Greg Conradi Smith"
 excerpt: "Our wins are not the result of religious superiority; our defeats do not signal loss of God’s favor."

@@ -1,6 +1,6 @@
 ---
 layout: quote
-title: "Miroslav Krleza, On the Edge of Reason"
+title: "Miroslav Krleža, On the Edge of Reason"
 date: 2026-04-27
 excerpt: "Had I not come to a turn in this account that could be described as a fatal one, according to a mysterious law of human folly, in all probability I would have spent my whole life o"
 image: "/assets/images/quotes/miroslav-krleza-on-the-edge-of-reason.jpg"
@@ -13,4 +13,4 @@ Had I not come to a turn in this account that could be described as a fatal one,
 
 In the life of every individual human being there is a time termed by novelists "fatal," and I had such a fatal experience that fall. It was about two years ago.
 
---Miroslav Krleza, *On the Edge of Reason*
+--Miroslav Krleža, *On the Edge of Reason*

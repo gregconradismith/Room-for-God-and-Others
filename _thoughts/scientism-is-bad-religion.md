@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Scientism is Bad Religion"
+title: "Scientism is bad religion"
 date: 2026-04-27
 excerpt: "Science is a tried and true method through which we may learn about the natural world. Scientism is science that has metastasized into worldview, dogma, and ideology. Science is an"
 image: "/assets/images/thoughts/scientism-is-bad-religion.jpg"

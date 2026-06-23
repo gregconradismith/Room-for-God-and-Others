@@ -1,6 +1,6 @@
 ---
 layout: quote
-title: "Czeslaw Milosz, The Captive Mind"
+title: "Czesław Miłosz, The Captive Mind"
 date: 2026-04-27
 excerpt: "Who can gaze indifferently at the suffering of people whose only sin was that they blocked the path of historical processes? To lull his conscience he resorts to the thesis that a "
 image: "/assets/images/quotes/czeslaw-milosz-the-captive-mind.jpg"
@@ -19,4 +19,4 @@ Whoever sees reality otherwise than as the proletariat sees it sees it falsely; 
 
 This line of reasoning has at least one flaw: it ignores the facts. The pressure of an all-powerful totalitarian state creates an emotional tension in its citizens that determines their actions. When people are divided into "loyalists" and "criminals," a premium is placed on every type of conformist, coward, and hireling; whereas among the "criminals" one finds a singularly high percentage of people who are direct, sincere, and true to themselves.
 
---Czeslaw Milosz, *The Captive Mind*
+--Czesław Miłosz, *The Captive Mind*
