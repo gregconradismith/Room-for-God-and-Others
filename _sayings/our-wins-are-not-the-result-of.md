@@ -1,9 +1,12 @@
 ---
-layout: aphorism
+layout: saying
 title: "Our wins are not the result of"
 date: 2026-06-21
 source: "Greg Conradi Smith"
 excerpt: "Our wins are not the result of religious superiority; our defeats do not signal loss of God’s favor."
+image: "/assets/images/sayings/our-wins-are-not-the-result-of.jpg"
+image_alt: "A personal doodle illustration selected for this saying."
+image_credit: "Photograph by Greg Conrad Smith of artwork, 2026."
 categories:
   - Sayings
 ---

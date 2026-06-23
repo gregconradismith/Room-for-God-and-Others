@@ -7,8 +7,8 @@ hide_eyebrow: true
 ---
 
 <div class="archive-list quote-list">
-  {% assign aphorisms = site.aphorisms | sort: "title" %}
-  {% for aphorism in aphorisms %}
-    {% include archive-item.html item=aphorism extra_class="quote-item" mark="&ldquo;" excerpt_length=190 %}
+  {% assign sayings = site.sayings | sort: "title" %}
+  {% for saying in sayings %}
+    {% include archive-item.html item=saying extra_class="quote-item" mark="&ldquo;" excerpt_length=190 %}
   {% endfor %}
 </div>

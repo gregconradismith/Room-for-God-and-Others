@@ -1,5 +1,5 @@
 ---
-layout: aphorism
+layout: saying
 title: "Corporations are not people"
 date: 2026-04-27
 source: "Greg Conradi Smith"

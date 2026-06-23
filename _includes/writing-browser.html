@@ -19,7 +19,7 @@
       {% include writing-browser-item.html item=item type="Poetry" %}
     {% endfor %}
 
-    {% assign browser_sayings = site.aphorisms | sort: "title" %}
+    {% assign browser_sayings = site.sayings | sort: "title" %}
     {% for item in browser_sayings %}
       {% include writing-browser-item.html item=item type="Saying" %}
     {% endfor %}

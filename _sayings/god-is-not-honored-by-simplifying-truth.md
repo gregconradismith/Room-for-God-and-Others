@@ -1,5 +1,5 @@
 ---
-layout: aphorism
+layout: saying
 title: "God is not honored by simplifying truth"
 date: 2026-06-20
 source: "Greg Conradi Smith"

@@ -1,11 +1,11 @@
 ---
-layout: aphorism
+layout: saying
 title: "We talk of a personal relationship with"
 date: 2026-06-21
 source: "Greg Conradi Smith"
 excerpt: "We talk of a personal relationship with God."
 image: "/assets/images/sayings/we-talk-of-a-personal-relationship-with.jpg"
-image_alt: "Alpine wildflowers blooming in a mountain meadow."
+image_alt: "A personal doodle illustration selected for this saying."
 image_credit: "Photograph by Greg Conrad Smith, 2026."
 categories:
   - Sayings

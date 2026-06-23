@@ -1,5 +1,5 @@
 ---
-layout: aphorism
+layout: saying
 title: "If one can lie with statistics"
 date: 2026-04-27
 source: "Greg Conradi Smith"

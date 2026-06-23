@@ -8,8 +8,8 @@ require "uri"
 require "yaml"
 
 ROOT = Pathname.new(__dir__).parent
-CONTENT_GLOBS = %w[_essays/*.md _poems/*.md _aphorisms/*.md _quotes/*.md _thoughts/*.md themes/*.md *.md].freeze
-COLLECTION_GLOBS = %w[_essays/*.md _poems/*.md _aphorisms/*.md _quotes/*.md _thoughts/*.md].freeze
+CONTENT_GLOBS = %w[_essays/*.md _poems/*.md _sayings/*.md _quotes/*.md _thoughts/*.md themes/*.md *.md].freeze
+COLLECTION_GLOBS = %w[_essays/*.md _poems/*.md _sayings/*.md _quotes/*.md _thoughts/*.md].freeze
 
 errors = []
 warnings = []
@@ -75,7 +75,7 @@ def collection_url(path)
     "/essays/#{stem.sub(/\A\d{4}-\d{2}-\d{2}-/, "")}/"
   when %r{\A_poems/}
     "/poetry/#{stem}/"
-  when %r{\A_aphorisms/}
+  when %r{\A_sayings/}
     "/sayings/#{stem}/"
   when %r{\A_quotes/}
     "/voices/#{stem}/"

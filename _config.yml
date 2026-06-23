@@ -20,7 +20,7 @@ collections:
   poems:
     output: true
     permalink: /poetry/:name/
-  aphorisms:
+  sayings:
     output: true
     permalink: /sayings/:name/
   quotes:
@@ -44,9 +44,9 @@ defaults:
       layout: poem
   - scope:
       path: ""
-      type: aphorisms
+      type: sayings
     values:
-      layout: aphorism
+      layout: saying
   - scope:
       path: ""
       type: quotes

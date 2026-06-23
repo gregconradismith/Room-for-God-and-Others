@@ -65,8 +65,8 @@ pages, images, and small Ruby helper scripts for the Pages workflow.
   during the workflow; `_data/featured_writing.yml` is the committed fallback
   snapshot.
 - On 2026-06-21, public labels and URLs were changed from
-  Aphorisms/Thoughts/Quotations to Sayings/Thoughts/Voices. The internal
-  collection keys and existing asset folders remain `_aphorisms`, `_thoughts`,
+  Sayings/Thoughts/Quotations to Sayings/Thoughts/Voices. The internal
+  collection keys and existing asset folders remain `_sayings`, `_thoughts`,
   `_quotes`, `assets/images/quotes`, and `assets/images/thoughts`.
 - The site includes a search and category filter browser. Browser result order
   is essays, poetry, sayings, thoughts, voices.

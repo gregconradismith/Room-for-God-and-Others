@@ -14,7 +14,7 @@ ITEM_LIMIT = 6
 COLLECTIONS = {
   "_essays" => { "label" => "Essay", "base" => "/essays", "use_title_permalink" => true },
   "_poems" => { "label" => "Poem", "base" => "/poetry" },
-  "_aphorisms" => { "label" => "Saying", "base" => "/sayings" },
+  "_sayings" => { "label" => "Saying", "base" => "/sayings" },
   "_thoughts" => { "label" => "Thought", "base" => "/thoughts" },
   "_quotes" => { "label" => "Voice", "base" => "/voices" }
 }.freeze

@@ -1,5 +1,5 @@
 ---
-layout: aphorism
+layout: saying
 title: "Lord, make me a fool for Christ"
 date: 2026-04-27
 source: "Greg Conradi Smith"

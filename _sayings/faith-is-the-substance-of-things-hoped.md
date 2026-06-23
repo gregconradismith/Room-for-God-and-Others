@@ -1,5 +1,5 @@
 ---
-layout: aphorism
+layout: saying
 title: "Faith is the substance of things hoped"
 date: 2026-04-27
 source: "Greg Conradi Smith"
