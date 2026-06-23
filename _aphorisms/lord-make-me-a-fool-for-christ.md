@@ -12,4 +12,4 @@ categories:
 ---
 Lord, make me a fool for Christ. And for no other reason.
 
-—Greg Conradi Smith
+<img class="signature-logo" src="/assets/images/sayings/gdcs-signature.png" alt="Greg Conradi Smith initials logo">

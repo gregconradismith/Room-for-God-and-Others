@@ -883,6 +883,12 @@ h3 {
   padding-left: 28px;
 }
 
+.signature-logo {
+  display: block;
+  margin-top: 22px;
+  max-width: min(220px, 70%);
+}
+
 .thought-body {
   border-left: 4px solid var(--accent-2);
   font-size: 1.08rem;
