@@ -7,19 +7,18 @@ layout: default
     <p class="eyebrow">Saying</p>
     <h1>{{ page.title | escape }}</h1>
     {% if page.source %}
-      {% if page.source == "Greg Conradi Smith" %}
-        <p class="work-meta signature-meta">
-          <img class="signature-logo" src="{{ '/assets/images/sayings/gdcs-signature.png' | relative_url }}" alt="Greg Conradi Smith initials logo">
-        </p>
-      {% else %}
+      {% unless page.source == "Greg Conradi Smith" %}
         <p class="work-meta">{{ page.source | escape }}</p>
-      {% endif %}
+      {% endunless %}
     {% endif %}
     {% include category-list.html item=page %}
     {% include feature-image.html %}
   </header>
   <div class="prose quote-body">
     {{ content }}
+    {% if page.source == "Greg Conradi Smith" %}
+      <img class="signature-logo" src="{{ '/assets/images/sayings/gdcs-signature.png' | relative_url }}" alt="Greg Conradi Smith initials logo">
+    {% endif %}
   </div>
   {% include work-navigation.html %}
 </article>
