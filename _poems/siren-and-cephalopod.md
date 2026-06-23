@@ -4,9 +4,9 @@ title: "Siren and Cephalopod"
 date: 2026-06-14
 excerpt: "A poem beginning: “an aria spray caresses”"
 image: /assets/images/poems/siren-and-cephalopod.jpg
-image_alt: "A storm-dark shore with shipwreck debris, a distant siren silhouette, and hidden tentacles under water."
+image_alt: "A dark-haired figure in white stands on a stormy shore beside draped cloth and a skull."
 image_credit: "Photo by Panos Lambis"
-image_credit_url: "http://www.palap.co.uk/"
+image_credit_url: "https://www.flickr.com/photos/25108424@N00/"
 categories:
   - Poetry
 ---
