@@ -725,21 +725,26 @@ h3 {
 
 .archive-list {
   border-top: 1px solid var(--ink);
+  column-count: 3;
+  column-gap: clamp(1.1rem, 2.4vw, 2rem);
   grid-column: auto;
+  padding-top: 18px;
 }
 
 .archive-item {
   align-items: start;
-  border-bottom: 1px solid var(--line);
+  break-inside: avoid;
+  border-bottom: 0;
+  border-top: 1px solid var(--line);
   display: grid;
-  gap: 20px;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-  justify-content: center;
-  padding: 18px 0 17px;
+  gap: 12px;
+  grid-template-columns: minmax(0, 1fr);
+  margin: 0 0 clamp(1.4rem, 3vw, 2.25rem);
+  padding: 16px 0 0;
 }
 
 .archive-item.has-thumbnail {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .archive-item h2 {
@@ -753,11 +758,11 @@ h3 {
 }
 
 .poem-archive-item {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .poem-archive-item.has-thumbnail {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .archive-thumbnail,
@@ -945,12 +950,12 @@ h3 {
 
 .quote-item,
 .thought-item {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .quote-item.has-thumbnail,
 .thought-item.has-thumbnail {
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .quote-mark {
@@ -1129,6 +1134,7 @@ figcaption {
   }
 
   .archive-list {
+    column-count: 2;
     grid-column: auto;
   }
 
@@ -1140,7 +1146,7 @@ figcaption {
   .quote-item.has-thumbnail,
   .thought-item.has-thumbnail,
   .poem-archive-item.has-thumbnail {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .work-header {
@@ -1173,6 +1179,10 @@ figcaption {
   .quote-item.has-thumbnail,
   .thought-item.has-thumbnail {
     grid-template-columns: 1fr;
+  }
+
+  .archive-list {
+    column-count: 1;
   }
 
   .poem-archive-item.has-thumbnail {

@@ -16,14 +16,4 @@
       </a>
     {% endif %}
   </div>
-  {% unless include.show_excerpt == false and item.categories == nil %}
-    <div class="archive-item-summary">
-      {% include category-list.html item=item %}
-      {% unless include.show_excerpt == false %}
-        {% if item.excerpt %}
-          <p>{{ item.excerpt | strip_html | truncate: include.excerpt_length | escape }}</p>
-        {% endif %}
-      {% endunless %}
-    </div>
-  {% endunless %}
 </article>
