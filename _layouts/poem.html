@@ -6,6 +6,9 @@ layout: default
     <a class="return-link" href="{{ '/poetry/' | relative_url }}">Poetry</a>
     <p class="eyebrow">Poem</p>
     <h1>{{ page.title | escape }}</h1>
+    {% if page.subtitle %}
+      <div class="work-subtitle">{{ page.subtitle | markdownify }}</div>
+    {% endif %}
     {% if page.date %}
       <p class="work-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>

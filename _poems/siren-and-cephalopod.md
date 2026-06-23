@@ -1,6 +1,7 @@
 ---
 layout: poem
 title: "Siren and Cephalopod"
+subtitle: "After reading Philip Larkin's _Mythical Introduction_"
 date: 2026-06-14
 excerpt: "A poem beginning: “an aria spray caresses”"
 image: /assets/images/poems/siren-and-cephalopod.jpg
@@ -10,8 +11,6 @@ image_credit_url: "https://www.flickr.com/photos/25108424@N00/"
 categories:
   - Poetry
 ---
-<p class="poem-note">(After reading Philip Larkin's <em>Mythical Introduction</em>)</p>
-
 <div class="verse">
 an aria spray caresses
 the vessel's blouse
