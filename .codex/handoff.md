@@ -1,18 +1,18 @@
 # Codex Handoff
 
-Date: 2026-06-22
+Date: 2026-06-23
 
 Repo: `room-for-god-and-others`
 
 Branch: `main`
 
 <!-- codex-transfer-snapshot:start -->
-## 2026-06-22 Computer Transfer Snapshot
+## 2026-06-23 Computer Transfer Snapshot
 
-- Checked on 2026-06-22 from `/Users/greg/Git` before moving computers.
-- Ran `git fetch --all --prune`; `main` is tracking `origin/main` unless this status says otherwise.
+- Checked on 2026-06-23 from `/Users/gregconradismith/Git` before moving to the office Mac.
+- `main` is tracking `origin/main` unless this status says otherwise.
 - Origin: `git@github.com:gregconradismith/room-for-god-and-others.git`
-- Latest commit at refresh time: `5ccec8e 2026-06-22 16:05:40 -0400 Restore collection categories`
+- Latest commit at refresh time: `281dc1a 2026-06-23 13:28:00 -0400 Move saying signature below quote text`
 - On the next machine, read `AGENTS.md` first, then this handoff.
 - The working tree was clean before this handoff refresh; after committing the refresh, `git status --short --branch` should again show only the branch line.
 
@@ -27,8 +27,6 @@ Current Git status after the 2026-06-22 homepage hero image update:
 
 ```bash
 ## main...origin/main
-Replaced `assets/images/reading-room.png` with a generated wide-format reading
-room hero background. Run `git status --short` for the full file list.
 ```
 
 ## Repository Role
@@ -80,6 +78,27 @@ pages, images, and small Ruby helper scripts for the Pages workflow.
   `assets/images/reading-room.png` was replaced with a generated literary
   reading-room illustration. `ruby scripts/validate_content.rb` passed after
   the asset replacement.
+- On 2026-06-23, the Aphorisms collection was renamed in public UI and
+  permalinks to Sayings. Content now lives in `_sayings/`, the collection key
+  is `sayings`, and URLs are `/sayings/...`.
+- On 2026-06-23, the Saying layout was updated so items whose
+  `source: "Greg Conradi Smith"` render the initials logo
+  `assets/images/sayings/gdcs-signature.png` directly under the quote text.
+  Do not put that logo in the header/left metadata column. Current size is
+  controlled by `.signature-logo` in `assets/css/styles.css` and is one-third
+  scale via `max-width: min(74px, 33%)`.
+- The latest Pages workflow for `281dc1a` completed successfully. Live HTML was
+  checked for `/sayings/corporations-are-not-people/` and
+  `/sayings/lord-make-me-a-fool-for-christ/`; in both, the logo appears inside
+  `<div class="prose quote-body">` after the quote paragraph.
+- Greg asked that Codex always commit and push site changes so he can view the
+  deployed HTML. After pushing, watch the GitHub Actions Pages workflow until
+  the deploy completes whenever possible.
+- A title-confirmation pass is paused. It was started across all authored
+  Markdown content. Item 1 of 127 was confirmed: `_essays/2018-01-01-why-i-am-perhaps-not-an-evangelical.md`
+  with title `Why I Am (Perhaps Not) an Evangelical`. Resume at item 2:
+  `_essays/2025-06-11-illusion-of-personhood-generative-ai-and-simulated-communication.md`
+  with title `The Illusion of Personhood: Generative AI and Simulated Communication`.
 
 ## Useful Commands
 
