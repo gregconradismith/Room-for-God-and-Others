@@ -315,8 +315,12 @@ h3 {
 }
 
 .page-header {
+  align-items: center;
+  display: grid;
+  justify-items: center;
   margin-left: auto;
   margin-right: auto;
+  min-height: clamp(4.5rem, 10vw, 7rem);
   text-align: center;
 }
 
@@ -773,8 +777,14 @@ h3 {
 }
 
 .archive-item h2 {
+  align-items: center;
+  display: flex;
   font-size: clamp(1.32rem, 2.4vw, 2.05rem);
+  justify-content: center;
   line-height: 1.08;
+  min-height: 2.35em;
+  text-align: center;
+  width: 100%;
 }
 
 .archive-item:hover {
