@@ -2,15 +2,14 @@
 layout: page
 title: Themes
 permalink: /themes/
-description: Themes for reading across the site.
-page_class: themes-page
+hide_eyebrow: true
+page_class: archive-page themes-archive
 ---
 
-<div class="theme-list">
+<div class="archive-list theme-list">
   {% for theme in site.data.writing_categories %}
-    <article class="theme-card">
+    <article class="archive-item theme-card">
       <h2><a href="{{ '/themes/' | append: theme.slug | append: '/' | relative_url }}">{{ theme.title | escape }}</a></h2>
-      <p>[...]</p>
     </article>
   {% endfor %}
 </div>

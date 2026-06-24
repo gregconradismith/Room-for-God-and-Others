@@ -461,16 +461,11 @@ h3 {
 }
 
 .theme-list {
-  display: grid;
-  gap: 22px;
-  margin: 34px auto 0;
-  max-width: min(100%, 72ch);
-  text-align: center;
+  margin-top: 0;
 }
 
 .theme-card {
-  border-top: 1px solid var(--line);
-  padding: 21px 0 0;
+  text-align: left;
 }
 
 .theme-card h2 {
@@ -479,26 +474,6 @@ h3 {
 
 .theme-card h2 a {
   text-decoration: none;
-}
-
-.theme-card p {
-  color: var(--muted);
-  font-size: 0.96rem;
-  line-height: 1.52;
-  margin: 9px auto 0;
-  max-width: 56ch;
-}
-
-.themes-page {
-  display: block;
-}
-
-.themes-page .page-header,
-.themes-page .prose {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: min(100%, 72ch);
-  text-align: center;
 }
 
 .writing-browser {
@@ -823,7 +798,7 @@ h3 {
 
 .archive-thumbnail,
 .poem-thumbnail {
-  width: 100%;
+  width: 50%;
 }
 
 .writing-thumbnail {
