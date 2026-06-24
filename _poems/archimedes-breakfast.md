@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: "Archimedes' Breakfast"
+title: "Archimedes’ Breakfast"
 date: 2026-06-14
 excerpt: "A poem beginning: “When Archimedes ate his Wheaties”"
 image: /assets/images/poems/archimedes-breakfast.jpg

@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: "Hair Grows"
+title: "Hair grows"
 date: 2026-06-14
 excerpt: "A poem beginning: “Hair grows”"
 image: /assets/images/poems/hair-grows.jpg

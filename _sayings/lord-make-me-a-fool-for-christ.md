@@ -1,6 +1,6 @@
 ---
 layout: saying
-title: "Lord, make me a fool for Christ"
+title: "Lord, make me a fool for Christ…"
 date: 2026-04-27
 source: "Greg Conradi Smith"
 excerpt: "Lord, make me a fool for Christ. And for no other reason."

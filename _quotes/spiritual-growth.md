@@ -1,6 +1,6 @@
 ---
 layout: quote
-title: "Spiritual Growth"
+title: "Spiritual growth…"
 date: 2026-04-27
 excerpt: "Spiritual growth is the result of coming face to face with our own situation, feeling the brunt of our own puzzlement, recognizing no recipe will apply completely, and then trustin"
 image: "/assets/images/quotes/spiritual-growth.jpg"

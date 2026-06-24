@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "I have been enjoying Timothy Snyder’s YouTube"
+title: "I have been enjoying Timothy Snyder’s YouTube videos…"
 date: 2026-04-27
 excerpt: "I have been enjoying Timothy Snyder’s YouTube videos. In one of them, he introduced the term “totalitarianism” to a discussion of populism, oligarchy, and authoritarianism. His def"
 image: "/assets/images/thoughts/i-have-been-enjoying-timothy-snyders-youtube.jpg"

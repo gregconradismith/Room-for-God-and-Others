@@ -1,6 +1,6 @@
 ---
 layout: thought
-title: "Psalm 146ish - after Mel’s sermon on 2016 September 25"
+title: "Psalm 146ish: after Mel’s sermon on 2016 September 25"
 date: 2026-04-27
 excerpt: "Do not trust in presidents and ideologies, traditions and institutions, creativity, ingenuity or goodwill. No human being or organization can truly liberate and heal. These cannot "
 image: "/assets/images/thoughts/psalm-146ish-after-mels-sermon-on-2016-september-25.jpg"

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Voice of the Day
+title: Voice of the day
 permalink: /voice-of-the-day/
 description: A daily path into the voice archive.
 ---

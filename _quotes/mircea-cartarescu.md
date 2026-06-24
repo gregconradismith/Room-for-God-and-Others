@@ -1,6 +1,6 @@
 ---
 layout: quote
-title: "Mircea Cartarescu"
+title: "Mircea Cărtărescu"
 date: 2026-04-27
 excerpt: "In capitalism, man exploits man."
 image: "/assets/images/quotes/mircea-cartarescu.jpg"
@@ -13,4 +13,4 @@ In capitalism, man exploits man.
 
 In communism, it's the other way around.
 
---Mircea Cartarescu, *Solenoid*
+--Mircea Cărtărescu, *Solenoid*

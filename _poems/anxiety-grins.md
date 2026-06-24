@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: "Anxiety Grins"
+title: "Anxiety grins"
 date: 2026-06-14
 excerpt: "A poem beginning: “Anxiety grins”"
 image: /assets/images/poems/anxiety-grins.jpg

@@ -1,6 +1,6 @@
 ---
 layout: quote
-title: "Spoke Into the Wheel"
+title: "Spoke into the wheel"
 date: 2026-04-27
 excerpt: "\"We are not to simply bandage the wounds of victims beneath the wheels of injustice, we are to drive a spoke into the wheel itself.\""
 image: "/assets/images/quotes/spoke-into-the-wheel.jpg"
