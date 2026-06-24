@@ -10,6 +10,7 @@ layout: default
     {% if page.description %}
       <p class="page-description">{{ page.description | escape }}</p>
     {% endif %}
+    {% include feature-image.html %}
   </header>
   <div class="prose">
     {{ content }}
