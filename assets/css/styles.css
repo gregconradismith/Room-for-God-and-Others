@@ -409,6 +409,44 @@ h3 {
   margin-right: auto;
 }
 
+.archive-page .page-header h1 {
+  font-size: clamp(2.18rem, 4vw, 3.8rem);
+  line-height: 0.98;
+}
+
+.archive-page .prose {
+  max-width: none;
+}
+
+.archive-intro {
+  align-items: end;
+  border-bottom: 1px solid var(--ink);
+  border-top: 1px solid var(--ink);
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding: 17px 0;
+}
+
+.archive-intro p {
+  color: var(--soft-ink);
+  font-size: clamp(1.06rem, 2vw, 1.28rem);
+  line-height: 1.45;
+  margin: 0;
+  max-width: 620px;
+}
+
+.archive-intro span {
+  color: var(--accent-2);
+  flex: 0 0 auto;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.74rem;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
 .writing-list {
   border-top: 1px solid var(--line);
 }
@@ -748,7 +786,16 @@ h3 {
 }
 
 .archive-item h2 {
-  font-size: clamp(1.18rem, 2.4vw, 1.72rem);
+  font-size: clamp(1.32rem, 2.4vw, 2.05rem);
+  line-height: 1.08;
+}
+
+.archive-item:hover {
+  border-top-color: rgba(143, 63, 47, 0.5);
+}
+
+.archive-page .archive-item:hover {
+  transform: translateX(3px);
 }
 
 .prose .archive-item h2 {
@@ -812,12 +859,14 @@ h3 {
   position: sticky;
   top: 124px;
   align-self: start;
+  color: var(--soft-ink);
 }
 
 .work-header h1 {
-  font-size: 1.45rem;
+  color: var(--ink);
+  font-size: clamp(1.55rem, 2.7vw, 2.34rem);
   hyphens: auto;
-  line-height: 1.16;
+  line-height: 1.08;
   overflow-wrap: normal;
   text-wrap: balance;
 }
@@ -844,9 +893,18 @@ h3 {
 }
 
 .work-meta {
-  display: grid;
-  gap: 6px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
   margin: 16px 0 0;
+  padding-top: 14px;
+}
+
+.work-meta span::before {
+  color: var(--line);
+  content: "/";
+  margin-right: 12px;
 }
 
 .poem-date {
@@ -864,7 +922,7 @@ h3 {
 }
 
 .prose {
-  font-size: 1.08rem;
+  font-size: 1.11rem;
   max-width: var(--measure);
 }
 
@@ -881,7 +939,7 @@ h3 {
 }
 
 .prose p {
-  line-height: 1.72;
+  line-height: 1.78;
 }
 
 .prose h1,
@@ -928,8 +986,9 @@ h3 {
 
 .quote-body {
   border-left: 4px solid var(--accent-3);
-  font-size: 1.14rem;
-  padding-left: 28px;
+  font-size: clamp(1.16rem, 2vw, 1.34rem);
+  line-height: 1.76;
+  padding-left: clamp(20px, 3vw, 34px);
 }
 
 .signature-logo {
@@ -940,8 +999,8 @@ h3 {
 
 .thought-body {
   border-left: 4px solid var(--accent-2);
-  font-size: 1.08rem;
-  padding-left: 28px;
+  font-size: clamp(1.08rem, 1.7vw, 1.2rem);
+  padding-left: clamp(20px, 3vw, 34px);
 }
 
 .quote-list {
@@ -960,13 +1019,13 @@ h3 {
 
 .quote-mark {
   color: var(--accent-3);
-  font-size: 3rem;
+  font-size: clamp(2.65rem, 4vw, 3.8rem);
   line-height: 1;
 }
 
 .poem-body {
-  font-size: 1.22rem;
-  line-height: 1.9;
+  font-size: clamp(1.18rem, 2vw, 1.34rem);
+  line-height: 1.95;
   max-width: 42ch;
 }
 
@@ -1117,6 +1176,12 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
+  .archive-intro {
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
   .goodreads-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1154,7 +1219,7 @@ figcaption {
   }
 
   .work-header h1 {
-    font-size: 2rem;
+    font-size: clamp(2rem, 6vw, 3rem);
     line-height: 1.1;
   }
 
@@ -1187,6 +1252,10 @@ figcaption {
 
   .poem-archive-item.has-thumbnail {
     grid-template-columns: 1fr;
+  }
+
+  .archive-page .archive-item:hover {
+    transform: none;
   }
 
   .section-heading {
