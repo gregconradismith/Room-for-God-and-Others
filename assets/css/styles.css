@@ -465,7 +465,7 @@ h3 {
 }
 
 .theme-card {
-  text-align: left;
+  text-align: center;
 }
 
 .theme-card h2 {
@@ -674,9 +674,11 @@ h3 {
 
 .writing-item-media,
 .archive-item-media {
+  justify-items: center;
   display: grid;
   gap: 10px;
   min-width: 0;
+  text-align: center;
 }
 
 .writing-item-summary,
@@ -798,6 +800,8 @@ h3 {
 
 .archive-thumbnail,
 .poem-thumbnail {
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
 }
 
