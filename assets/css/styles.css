@@ -1142,7 +1142,7 @@ figcaption {
 
   .site-nav > a,
   .site-nav .nav-button {
-    flex: 1 1 0;
+    flex: 1 1 auto;
     font-size: clamp(0.48rem, 1.8vw, 0.66rem);
     letter-spacing: 0;
     min-width: 0;
