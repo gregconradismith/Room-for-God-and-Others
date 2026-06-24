@@ -418,6 +418,10 @@ h3 {
   line-height: 0.98;
 }
 
+.theme-page .page-header h1 {
+  max-width: none;
+}
+
 .archive-page .page-header {
   border-top: 0;
   padding-top: 0;
