@@ -4,8 +4,8 @@ title: "The blessing of T’Pau (a dream)"
 date: 2026-04-27
 excerpt: "I was coming of age, and having taken a long pilgrimage, the end of my journey was a demanding hike up a red mountain. I sought an oracle from T’Pau, the renowned Vulcan priestess,"
 image: "/assets/images/thoughts/the-blessing-of-t-pau-a-dream.jpg"
-image_alt: "A personal doodle illustration selected for this thought."
-image_credit: "Drawing by Greg Conrad Smith, 2026."
+image_alt: "AI-generated editorial illustration selected for this thought."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Thoughts
 ---

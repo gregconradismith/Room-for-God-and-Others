@@ -4,8 +4,8 @@ title: "Fyodor Dostoevsky, The Brothers Karamazov"
 date: 2026-04-27
 excerpt: "“Imagine: inside, in the nerves, in the head—that is, these nerves are there in the brain... damn them! there are sort of little tails, the little tails of those nerves, and as soo"
 image: "/assets/images/quotes/fyodor-dostoevsky-the-brothers-karamazov.jpg"
-image_alt: "A personal doodle illustration selected for this voice."
-image_credit: "Drawing by Greg Conrad Smith, 2026."
+image_alt: "AI-generated editorial illustration selected for this voice."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Voices
 ---

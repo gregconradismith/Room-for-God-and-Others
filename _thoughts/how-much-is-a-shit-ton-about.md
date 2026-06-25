@@ -4,8 +4,8 @@ title: "How much is a shit ton?"
 date: 2026-04-27
 excerpt: "How much is a shit ton? About three mother loads. 2013."
 image: "/assets/images/thoughts/how-much-is-a-shit-ton-about.jpg"
-image_alt: "A personal doodle illustration selected for this thought."
-image_credit: "Photograph by Greg Conrad Smith of artwork, 2026."
+image_alt: "AI-generated editorial illustration selected for this thought."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Thoughts
 ---

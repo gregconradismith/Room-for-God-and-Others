@@ -4,8 +4,8 @@ title: "Ronald Beiner"
 date: 2026-04-27
 excerpt: "Looking back on that conversation today, I cannot help but wonder whether my more hopeful view of the discipline and its intellectual achievements was just a conceit of youth, and "
 image: "/assets/images/quotes/ronald-beiner.jpg"
-image_alt: "A personal doodle illustration selected for this voice."
-image_credit: "Drawing by Greg Conrad Smith, 2026."
+image_alt: "AI-generated editorial illustration selected for this voice."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Voices
 ---

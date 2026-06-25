@@ -5,8 +5,8 @@ date: 2026-06-21
 source: "Greg Conradi Smith"
 excerpt: "We talk of a personal relationship with God."
 image: "/assets/images/sayings/we-talk-of-a-personal-relationship-with.jpg"
-image_alt: "A personal doodle illustration selected for this saying."
-image_credit: "Photograph by Greg Conrad Smith, 2026."
+image_alt: "AI-generated editorial illustration selected for this saying."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Sayings
 ---

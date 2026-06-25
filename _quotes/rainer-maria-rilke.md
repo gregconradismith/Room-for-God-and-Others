@@ -4,8 +4,8 @@ title: "Rainer Maria Rilke"
 date: 2026-04-27
 excerpt: "How surely gravity's law, strong as an ocean current, takes hold of the smallest thing and pulls it toward the heart of the world."
 image: "/assets/images/quotes/rainer-maria-rilke.jpg"
-image_alt: "A personal doodle illustration selected for this voice."
-image_credit: "Drawing by Greg Conrad Smith, 2026."
+image_alt: "AI-generated editorial illustration selected for this voice."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Voices
 ---

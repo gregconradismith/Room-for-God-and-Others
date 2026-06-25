@@ -4,8 +4,8 @@ title: "Czesław Miłosz, The Captive Mind"
 date: 2026-04-27
 excerpt: "Who can gaze indifferently at the suffering of people whose only sin was that they blocked the path of historical processes? To lull his conscience he resorts to the thesis that a "
 image: "/assets/images/quotes/czeslaw-milosz-the-captive-mind.jpg"
-image_alt: "A personal doodle illustration selected for this voice."
-image_credit: "Drawing by Greg Conrad Smith, 2026."
+image_alt: "AI-generated editorial illustration selected for this voice."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Voices
 ---

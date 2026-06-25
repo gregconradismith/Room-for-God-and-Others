@@ -4,8 +4,8 @@ title: "Stellan Ohlsson"
 date: 2026-04-27
 excerpt: "The psychology of thinking encounters several perennial problems... Perennial problems are rarely solved. Instead, they serve as loci for the accumulation of knowledge. Each genera"
 image: "/assets/images/quotes/stellan-ohlsson.jpg"
-image_alt: "A personal doodle illustration selected for this voice."
-image_credit: "Photograph by Greg Conrad Smith of artwork, 2026."
+image_alt: "AI-generated editorial illustration selected for this voice."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Voices
 ---

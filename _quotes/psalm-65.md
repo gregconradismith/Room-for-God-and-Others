@@ -4,8 +4,8 @@ title: "Psalm 65"
 date: 2026-04-27
 excerpt: "Praise awaits you, our God, in Zion; to you our vows will be fulfilled."
 image: "/assets/images/quotes/psalm-65.jpg"
-image_alt: "A personal doodle illustration selected for this voice."
-image_credit: "Drawing by Greg Conrad Smith, 2026."
+image_alt: "AI-generated editorial illustration selected for this voice."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
 categories:
   - Voices
 ---
