@@ -306,8 +306,9 @@ h3 {
 .work {
   display: grid;
   gap: clamp(2rem, 4vw, 3.5rem);
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(14rem, 18rem) minmax(0, 42rem);
   justify-content: center;
+  max-width: min(100%, 1120px);
 }
 
 .work-main {
@@ -1134,8 +1135,8 @@ h3 {
   gap: 14px;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 48px;
-  max-width: var(--measure);
   padding-top: 20px;
+  width: 100%;
 }
 
 .work-navigation-link {
@@ -1149,10 +1150,16 @@ h3 {
   padding: 14px 16px;
   text-decoration: none;
   transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
+  width: min(100%, 22rem);
+}
+
+.work-navigation-link.previous {
+  justify-self: start;
 }
 
 .work-navigation-link.next {
   grid-column: 2;
+  justify-self: end;
   text-align: right;
 }
 
@@ -1384,9 +1391,13 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
+  .work-navigation-link,
+  .work-navigation-link.previous,
   .work-navigation-link.next {
     grid-column: auto;
+    justify-self: stretch;
     text-align: left;
+    width: 100%;
   }
 }
 
