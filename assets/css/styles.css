@@ -1094,6 +1094,10 @@ h3 {
   max-width: 42ch;
 }
 
+.work > .poem-body {
+  max-width: 42ch;
+}
+
 .poem-note {
   color: var(--muted);
   font-size: 0.98rem;
