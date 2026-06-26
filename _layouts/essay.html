@@ -4,7 +4,6 @@ layout: default
 <article class="work">
   <header class="work-header">
     <a class="return-link" href="{{ '/essays/' | relative_url }}">Essays</a>
-    <p class="eyebrow">{% if page.draft %}Draft Essay{% else %}Essay{% endif %}</p>
     <h1>{{ page.title | escape }}</h1>
     <p class="work-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
