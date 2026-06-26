@@ -1,18 +1,23 @@
 {% assign collection_items = nil %}
+{% assign collection_label = "writing" %}
 {% case page.collection %}
   {% when "essays" %}
-    {% assign collection_items = site.essays %}
+    {% assign collection_items = site.essays | sort: "date" %}
+    {% assign collection_label = "essays" %}
   {% when "poems" %}
-    {% assign collection_items = site.poems %}
+    {% assign collection_items = site.poems | sort: "date" | reverse %}
+    {% assign collection_label = "poems" %}
   {% when "sayings" %}
-    {% assign collection_items = site.sayings %}
+    {% assign collection_items = site.sayings | sort: "title" %}
+    {% assign collection_label = "sayings" %}
   {% when "quotes" %}
-    {% assign collection_items = site.quotes %}
+    {% assign collection_items = site.quotes | sort: "title" %}
+    {% assign collection_label = "voices" %}
   {% when "thoughts" %}
-    {% assign collection_items = site.thoughts %}
+    {% assign collection_items = site.thoughts | sort: "title" %}
+    {% assign collection_label = "thoughts" %}
 {% endcase %}
 {% if collection_items %}
-{% assign collection_items = collection_items | sort: "date" %}
 {% assign previous_item = nil %}
 {% assign next_item = nil %}
 {% assign last_item = nil %}
@@ -31,15 +36,15 @@
 {% endfor %}
 
 {% if previous_item or next_item %}
-  <nav class="work-navigation" aria-label="Adjacent writing">
+  <nav class="work-navigation" aria-label="Adjacent {{ collection_label }}">
     {% if previous_item %}
-      <a class="work-navigation-link previous" href="{{ previous_item.url | relative_url }}">
+      <a class="work-navigation-link previous" href="{{ previous_item.url | relative_url }}" rel="prev">
         <span>Previous</span>
         <strong>{{ previous_item.title | escape }}</strong>
       </a>
     {% endif %}
     {% if next_item %}
-      <a class="work-navigation-link next" href="{{ next_item.url | relative_url }}">
+      <a class="work-navigation-link next" href="{{ next_item.url | relative_url }}" rel="next">
         <span>Next</span>
         <strong>{{ next_item.title | escape }}</strong>
       </a>

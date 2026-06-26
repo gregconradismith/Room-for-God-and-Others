@@ -1132,16 +1132,28 @@ h3 {
 }
 
 .work-navigation-link {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 6px;
   color: var(--ink);
   display: grid;
   gap: 6px;
   min-width: 0;
+  padding: 14px 16px;
   text-decoration: none;
+  transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
 .work-navigation-link.next {
   grid-column: 2;
   text-align: right;
+}
+
+.work-navigation-link:hover,
+.work-navigation-link:focus-visible {
+  border-color: var(--accent-2);
+  outline: 0;
+  transform: translateY(-1px);
 }
 
 .work-navigation-link span {
