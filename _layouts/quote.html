@@ -22,11 +22,13 @@ layout: default
     {% include category-list.html item=page %}
     {% include feature-image.html %}
   </header>
-  <div class="prose quote-body">
-    {{ content }}
-    {% if page.source and has_body_attribution != true %}
-      <p class="quote-source">&ndash;{{ page.source | escape }}</p>
-    {% endif %}
+  <div class="work-main">
+    <div class="prose quote-body">
+      {{ content }}
+      {% if page.source and has_body_attribution != true %}
+        <p class="quote-source">&ndash;{{ page.source | escape }}</p>
+      {% endif %}
+    </div>
+    {% include work-navigation.html %}
   </div>
-  {% include work-navigation.html %}
 </article>

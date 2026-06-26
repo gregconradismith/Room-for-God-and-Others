@@ -16,8 +16,10 @@ layout: default
     {% endif %}
     {% include feature-image.html %}
   </header>
-  <div class="prose">
-    {{ content }}
+  <div class="work-main">
+    <div class="prose">
+      {{ content }}
+    </div>
+    {% include work-navigation.html %}
   </div>
-  {% include work-navigation.html %}
 </article>

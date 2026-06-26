@@ -9,8 +9,10 @@ layout: default
     {% include category-list.html item=page %}
     {% include feature-image.html %}
   </header>
-  <div class="prose thought-body">
-    {{ content }}
+  <div class="work-main">
+    <div class="prose thought-body">
+      {{ content }}
+    </div>
+    {% include work-navigation.html %}
   </div>
-  {% include work-navigation.html %}
 </article>

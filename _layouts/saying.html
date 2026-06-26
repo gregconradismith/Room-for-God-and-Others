@@ -14,11 +14,13 @@ layout: default
     {% include category-list.html item=page %}
     {% include feature-image.html %}
   </header>
-  <div class="prose quote-body">
-    {{ content }}
-    {% if page.source == "Greg Conradi Smith" %}
-      <img class="signature-logo" src="{{ '/assets/images/sayings/gdcs-signature.png' | relative_url }}" alt="Greg Conradi Smith initials logo">
-    {% endif %}
+  <div class="work-main">
+    <div class="prose quote-body">
+      {{ content }}
+      {% if page.source == "Greg Conradi Smith" %}
+        <img class="signature-logo" src="{{ '/assets/images/sayings/gdcs-signature.png' | relative_url }}" alt="Greg Conradi Smith initials logo">
+      {% endif %}
+    </div>
+    {% include work-navigation.html %}
   </div>
-  {% include work-navigation.html %}
 </article>

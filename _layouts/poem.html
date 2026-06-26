@@ -17,8 +17,10 @@ layout: default
       </p>
     {% endif %}
   </header>
-  <div class="prose poem-body">
-    {{ content }}
+  <div class="work-main">
+    <div class="prose poem-body">
+      {{ content }}
+    </div>
+    {% include work-navigation.html %}
   </div>
-  {% include work-navigation.html %}
 </article>

@@ -1,10 +1,46 @@
 # Codex Handoff
 
-Date: 2026-06-24
+Date: 2026-06-25
 
 Repo: `room-for-god-and-others`
 
 Branch: `main`
+
+<!-- codex-transfer-snapshot-2026-06-25:start -->
+## 2026-06-25 Computer Transfer Snapshot
+
+- Checked on 2026-06-25 at 21:34 EDT from
+  `/Users/gregconradismith/Git/room-for-god-and-others` before moving
+  computers.
+- Branch: `main`, tracking `origin/main`.
+- Origin: `git@github.com:gregconradismith/room-for-god-and-others.git`
+- Latest commit before this handoff commit: `d5a9c54 2026-06-25 21:25:02 -0400 Reduce work header image size`
+- Current task: improve variable-width browser behavior on work-detail pages,
+  especially the poem page for `The Pool`.
+- Diagnosis: `.work-header .feature-image` was capped at `width: 50%`, and
+  `.work-navigation` was an independent CSS grid item forced into column 2.
+  That caused the previous/next links to wait for the full left header/sidebar
+  height rather than following the poem text.
+- Pending fix included in this transfer commit: add a `.work-main` wrapper
+  around body content plus adjacent-work navigation in the essay, poem, quote,
+  saying, and thought layouts; set work-header feature images to `width: 100%`;
+  remove the forced grid-column from `.work-navigation`; bump `css_version` to
+  `26`.
+- Validation before commit: `git diff --check` passed. Per repo instructions,
+  no local Jekyll/Bundler build was run.
+
+Status before this handoff edit:
+
+```bash
+## main...origin/main
+ M _layouts/essay.html
+ M _layouts/poem.html
+ M _layouts/quote.html
+ M _layouts/saying.html
+ M _layouts/thought.html
+ M assets/css/styles.css
+```
+<!-- codex-transfer-snapshot-2026-06-25:end -->
 
 <!-- codex-transfer-snapshot:start -->
 ## 2026-06-23 Computer Transfer Snapshot
