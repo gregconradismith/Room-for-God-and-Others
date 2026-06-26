@@ -1,28 +1,35 @@
 - title: "15% of my brain"
   slug: 15-percent-of-my-brain
   image: "/assets/images/themes/15-percent-of-my-brain.jpg"
-  description: "critical neuroscience and a piece of my mind"
+  image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
+  description: "how I really feel"
 - title: "Abusing notation"
   slug: abusing-notation
   image: "/assets/images/themes/abusing-notation.jpg"
-  description: "Or: Why I am not a mathematician."
+  image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
+  description: "Why I am not a mathematician."
 - title: "Biophysical soul"
   slug: biophysical-soul
   image: "/assets/images/themes/biophysical-soul.jpg"
+  image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
   description: "Matter, mind, and meaning."
 - title: "Instead of beauty, branding"
   slug: instead-of-beauty-branding
   image: "/assets/images/themes/instead-of-beauty-branding.jpg"
-  description: "Instead of beauty, branding. --Isaiah 3:24 (NIV)"
+  image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
+  description: "laments"
 - title: "Jesus loves Darwin"
   slug: jesus-loves-darwin
   image: "/assets/images/themes/jesus-loves-darwin.jpg"
-  description: "On the false choice between Christian faith and evolutionary biology."
+  image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
+  description: "Christian faith and natural history"
 - title: "Read against the machine"
   slug: read-against-the-machine
   image: "/assets/images/themes/read-against-the-machine.jpg"
-  description: "Thoughts on technological society, long-form reading, and natural intelligence."
+  image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
+  description: "long-form reading and technological society"
 - title: "The all-administrative university"
   slug: the-all-administrative-university
   image: "/assets/images/themes/the-all-administrative-university.jpg"
+  image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
   description: "Dispatches from middle academe."

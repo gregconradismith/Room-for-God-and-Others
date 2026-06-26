@@ -10,12 +10,15 @@ require "yaml"
 ROOT = Pathname.new(__dir__).parent
 CONTENT_GLOBS = %w[_essays/*.md _poems/*.md _sayings/*.md _quotes/*.md _thoughts/*.md themes/*.md *.md].freeze
 COLLECTION_GLOBS = %w[_essays/*.md _poems/*.md _sayings/*.md _quotes/*.md _thoughts/*.md].freeze
+AI_ATTRIBUTIONS_PATH = ROOT.join("assets/images/AI_ATTRIBUTIONS.md")
+AI_CREDIT_PATTERN = /ChatGPT|OpenAI/i
 
 errors = []
 warnings = []
 titles = Hash.new { |hash, key| hash[key] = [] }
 urls = Set.new
 theme_titles = Set.new
+ai_attribution_paths = Set.new
 
 def content_paths(globs)
   globs.flat_map { |glob| Dir.glob(ROOT.join(glob)).map { |file| Pathname.new(file) } }
@@ -67,6 +70,10 @@ def local_path_exists?(url, known_urls)
   false
 end
 
+def normalized_local_path(path)
+  path.to_s.sub(%r{\A/}, "")
+end
+
 def collection_url(path, data = {})
   permalink = data["permalink"].to_s.strip
   return permalink if !permalink.empty?
@@ -89,16 +96,35 @@ def collection_url(path, data = {})
 end
 
 theme_data_path = ROOT.join("_data/writing_categories.yml")
+if AI_ATTRIBUTIONS_PATH.file?
+  ai_attribution_paths.merge(AI_ATTRIBUTIONS_PATH.read.scan(/`([^`]+)`/).flatten)
+  ai_attribution_paths.each do |image_path|
+    errors << "assets/images/AI_ATTRIBUTIONS.md: listed image does not exist: #{image_path}" unless ROOT.join(image_path).file?
+  end
+else
+  errors << "assets/images/AI_ATTRIBUTIONS.md: AI image attribution ledger is missing"
+end
+
 if theme_data_path.file?
   themes = YAML.safe_load(theme_data_path.read, aliases: false) || []
   Array(themes).each do |theme|
     title = theme["title"].to_s.strip
     slug = theme["slug"].to_s.strip
     description = theme["description"].to_s.strip
+    image = theme["image"].to_s.strip
+    image_credit = theme["image_credit"].to_s.strip
 
     errors << "_data/writing_categories.yml: theme title is required" if title.empty?
     errors << "_data/writing_categories.yml: theme slug is required for #{title}" if slug.empty?
     errors << "_data/writing_categories.yml: theme description is required for #{title}" if description.empty?
+    unless image.empty?
+      image_path = normalized_local_path(image)
+      errors << "_data/writing_categories.yml: theme image does not exist for #{title}: #{image}" unless ROOT.join(image_path).file?
+      errors << "_data/writing_categories.yml: image_credit is required for #{title}" if image_credit.empty?
+      if image_credit.match?(AI_CREDIT_PATTERN) && !ai_attribution_paths.include?(image_path)
+        errors << "_data/writing_categories.yml: AI-generated image is missing from assets/images/AI_ATTRIBUTIONS.md for #{title}: #{image_path}"
+      end
+    end
     theme_titles << title unless title.empty?
   end
 else
@@ -141,16 +167,22 @@ content_paths(CONTENT_GLOBS).each do |path|
   errors << "#{rel}: #{yaml_error}" if yaml_error
 
   image = data["image"]
+  image_credit = data["image_credit"].to_s.strip
   if image
-    asset_path = ROOT.join(image.to_s.sub(%r{\A/}, ""))
+    image_path = normalized_local_path(image)
+    asset_path = ROOT.join(image_path)
     errors << "#{rel}: image does not exist: #{image}" unless asset_path.file?
     errors << "#{rel}: image_alt is required when image is set" if data["image_alt"].to_s.strip.empty?
+    errors << "#{rel}: image_credit is required when image is set" if image_credit.empty?
+    if image_credit.match?(AI_CREDIT_PATTERN) && !ai_attribution_paths.include?(image_path)
+      errors << "#{rel}: AI-generated image is missing from assets/images/AI_ATTRIBUTIONS.md: #{image_path}"
+    end
   end
 
   image_credit_url = data["image_credit_url"].to_s.strip
   if !image_credit_url.empty? && !valid_absolute_url?(image_credit_url)
     errors << "#{rel}: image_credit_url must be an absolute http(s) URL: #{image_credit_url}"
-  elsif !data["image_credit"].to_s.strip.empty? && image_credit_url.empty? && !data["image_credit"].to_s.match?(/Greg Conrad Smith|author|OpenAI/i)
+  elsif !image_credit.empty? && image_credit_url.empty? && !image_credit.match?(/Greg Conrad Smith|author|OpenAI/i)
     warnings << "#{rel}: image_credit has no image_credit_url"
   end
 

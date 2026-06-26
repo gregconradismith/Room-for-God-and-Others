@@ -2,6 +2,27 @@
 
 The image files listed below were generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026.
 
+- `assets/images/essays/illusion-of-personhood-generative-ai-and-simulated-communication.jpg`
+- `assets/images/essays/room-for-god-and-others.jpg`
+- `assets/images/essays/why-i-am-perhaps-not-an-evangelical.jpg`
+- `assets/images/poems/after-reading-dostoevsky.jpg`
+- `assets/images/poems/anxiety-grins.jpg`
+- `assets/images/poems/archimedes-breakfast.jpg`
+- `assets/images/poems/cable-monopoly-haiku.jpg`
+- `assets/images/poems/commander-helmut-von-fred.jpg`
+- `assets/images/poems/emily-blue.jpg`
+- `assets/images/poems/for-mandi-who-loves-tennis.jpg`
+- `assets/images/poems/hair-grows.jpg`
+- `assets/images/poems/inward-bound.jpg`
+- `assets/images/poems/joseph-brave-and-extraneous.jpg`
+- `assets/images/poems/let-us-be-shallow-together.jpg`
+- `assets/images/poems/online-dating-wholly-in-haiku.jpg`
+- `assets/images/poems/sheri.jpg`
+- `assets/images/poems/sloppity-sue.jpg`
+- `assets/images/poems/something.jpg`
+- `assets/images/poems/the-pool.jpg`
+- `assets/images/poems/the-wounded-statue.jpg`
+- `assets/images/poems/there-once-was-a-girl-from-tallahassee.jpg`
 - `assets/images/quotes/albert-schweitzer.jpg`
 - `assets/images/quotes/arn-anderson.jpg`
 - `assets/images/quotes/baruch-spinoza.jpg`
@@ -49,6 +70,13 @@ The image files listed below were generated with ChatGPT by OpenAI, prompted and
 - `assets/images/sayings/our-wins-are-not-the-result-of.jpg`
 - `assets/images/sayings/we-talk-of-a-personal-relationship-with.jpg`
 - `assets/images/sayings/writing-is-the-act-of-telling-the-truth.jpg`
+- `assets/images/themes/15-percent-of-my-brain.jpg`
+- `assets/images/themes/abusing-notation.jpg`
+- `assets/images/themes/biophysical-soul.jpg`
+- `assets/images/themes/instead-of-beauty-branding.jpg`
+- `assets/images/themes/jesus-loves-darwin.jpg`
+- `assets/images/themes/read-against-the-machine.jpg`
+- `assets/images/themes/the-all-administrative-university.jpg`
 - `assets/images/thoughts/democracy-and-the-invisible-hand.jpg`
 - `assets/images/thoughts/eco-on-fascism-sounds-to-me-like-trump.jpg`
 - `assets/images/thoughts/following-directions.jpg`

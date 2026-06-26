@@ -14,9 +14,14 @@ page_class: archive-page themes-archive
         <p>{{ theme.description | escape }}</p>
       {% endif %}
       {% if theme.image %}
-        <a class="archive-thumbnail" href="{{ '/themes/' | append: theme.slug | append: '/' | relative_url }}" aria-label="Open {{ theme.title | escape }}">
-          <img src="{{ theme.image | relative_url }}" alt="{{ theme.title | escape }}">
-        </a>
+        <figure class="archive-thumbnail-figure">
+          <a class="archive-thumbnail" href="{{ '/themes/' | append: theme.slug | append: '/' | relative_url }}" aria-label="Open {{ theme.title | escape }}">
+            <img src="{{ theme.image | relative_url }}" alt="{{ theme.title | escape }}">
+          </a>
+          {% if theme.image_credit %}
+            <figcaption>{{ theme.image_credit | escape }}</figcaption>
+          {% endif %}
+        </figure>
       {% endif %}
     </article>
   {% endfor %}

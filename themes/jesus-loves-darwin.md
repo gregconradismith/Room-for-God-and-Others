@@ -5,7 +5,8 @@ permalink: /themes/jesus-loves-darwin/
 page_class: theme-page
 image: "/assets/images/themes/jesus-loves-darwin.jpg"
 image_alt: "Jesus loves Darwin"
-description: "On the false choice between Christian faith and evolutionary biology."
+image_credit: "Illustration generated with ChatGPT by OpenAI, prompted and selected by Greg Conrad Smith, 2026."
+description: "Christian faith and natural history"
 ---
 
 {% include writing-browser.html theme=page.title %}

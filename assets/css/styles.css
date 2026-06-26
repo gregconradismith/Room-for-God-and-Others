@@ -878,6 +878,18 @@ h3 {
   width: 50%;
 }
 
+.archive-thumbnail-figure {
+  margin: 0;
+}
+
+.archive-thumbnail-figure figcaption {
+  font-size: 0.74rem;
+  line-height: 1.35;
+  margin: 0.6rem auto 0;
+  max-width: 34rem;
+  text-align: center;
+}
+
 .writing-thumbnail {
   width: min(100%, 68%);
 }
