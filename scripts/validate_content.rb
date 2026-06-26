@@ -12,6 +12,9 @@ CONTENT_GLOBS = %w[_essays/*.md _poems/*.md _sayings/*.md _quotes/*.md _thoughts
 COLLECTION_GLOBS = %w[_essays/*.md _poems/*.md _sayings/*.md _quotes/*.md _thoughts/*.md].freeze
 AI_ATTRIBUTIONS_PATH = ROOT.join("assets/images/AI_ATTRIBUTIONS.md")
 AI_CREDIT_PATTERN = /ChatGPT|OpenAI/i
+SITE_CONFIG = YAML.safe_load(ROOT.join("_config.yml").read, aliases: false) || {}
+ENV["TZ"] = SITE_CONFIG["timezone"].to_s unless SITE_CONFIG["timezone"].to_s.empty?
+TODAY = Date.today
 
 errors = []
 warnings = []
@@ -72,6 +75,15 @@ end
 
 def normalized_local_path(path)
   path.to_s.sub(%r{\A/}, "")
+end
+
+def date_only(value)
+  case value
+  when Date
+    value
+  when Time
+    Date.new(value.year, value.month, value.day)
+  end
 end
 
 def collection_url(path, data = {})
@@ -136,6 +148,10 @@ content_paths(COLLECTION_GLOBS).each do |path|
   rel = path.relative_path_from(ROOT).to_s
   title = data["title"].to_s.strip
   titles[title.downcase] << rel unless title.empty?
+  content_date = date_only(data["date"])
+  if content_date && content_date > TODAY
+    errors << "#{rel}: date #{content_date} is in the future for the site timezone; Jekyll may list it without outputting its page"
+  end
 
   themes = Array(data["themes"]).map { |theme| theme.to_s.strip }.reject(&:empty?)
   errors << "#{rel}: themes must include at least one writing theme" if themes.empty?
