@@ -916,7 +916,7 @@ h3 {
 
 .work-header .feature-image {
   margin: 26px 0 0;
-  width: 100%;
+  width: min(150%, calc(100vw - 44px));
 }
 
 .feature-image img {
