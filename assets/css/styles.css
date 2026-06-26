@@ -481,6 +481,70 @@ h3 {
   padding-top: 34px;
 }
 
+.start-section {
+  padding-bottom: 22px;
+  padding-top: 34px;
+}
+
+.start-list {
+  border-left: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.start-item {
+  align-items: start;
+  border-bottom: 1px solid var(--line);
+  border-right: 1px solid var(--line);
+  display: grid;
+  gap: 16px;
+  grid-column: span 3;
+  grid-template-rows: auto minmax(0, 1fr);
+  min-width: 0;
+  padding: 18px;
+}
+
+.start-item:nth-child(-n+2) {
+  grid-column: span 6;
+  grid-template-columns: minmax(0, 1fr) minmax(7rem, 34%);
+  grid-template-rows: auto;
+}
+
+.start-item-copy {
+  min-width: 0;
+}
+
+.start-item h3 {
+  font-size: clamp(1.18rem, 2vw, 1.65rem);
+}
+
+.start-item h3 a {
+  text-decoration: none;
+}
+
+.start-item p:not(.item-type) {
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.48;
+  margin: 9px 0 0;
+}
+
+.start-thumbnail {
+  aspect-ratio: 4 / 3;
+  border-radius: 6px;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.start-thumbnail img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
 .daily-quote-section {
   padding-bottom: 22px;
   padding-top: 34px;
@@ -1301,6 +1365,17 @@ figcaption {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .start-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .start-item,
+  .start-item:nth-child(-n+2) {
+    grid-column: span 1;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto minmax(0, 1fr);
+  }
+
   .goodreads-book:nth-child(odd) {
     border-left: 0;
   }
@@ -1389,6 +1464,10 @@ figcaption {
   }
 
   .goodreads-list {
+    grid-template-columns: 1fr;
+  }
+
+  .start-list {
     grid-template-columns: 1fr;
   }
 

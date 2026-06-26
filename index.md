@@ -14,6 +14,30 @@ title: Home
 
 {% include site-nav.html extra_class="home-nav" %}
 
+<section class="home-section start-section" aria-labelledby="start-title">
+  <div class="section-heading">
+    <p class="eyebrow">Start here</p>
+    <h2 id="start-title">Reading paths</h2>
+    <a class="section-link" href="{{ '/about/' | relative_url }}">About</a>
+  </div>
+  <div class="start-list">
+    {% for item in site.data.start_here.items %}
+      <article class="start-item{% if item.image and item.image != "" %} has-thumbnail{% endif %}">
+        <div class="start-item-copy">
+          <p class="item-type">{{ item.label | escape }}</p>
+          <h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3>
+          <p>{{ item.excerpt | escape }}</p>
+        </div>
+        {% if item.image and item.image != "" %}
+          <a class="start-thumbnail" href="{{ item.url | relative_url }}" aria-label="Open {{ item.title | escape }}">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title | escape }}">
+          </a>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
 <section class="home-section daily-quote-section" aria-label="Voice of the day">
   {% include daily-quote.html compact=true heading="Voice of the day" %}
 </section>
