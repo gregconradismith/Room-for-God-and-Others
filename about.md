@@ -8,7 +8,7 @@ hide_eyebrow: true
 
 I am Greg Conradi Smith: a scientist, professor, Christian, reader, and writer.
 
-I make mathematical models of biological systems and teach students to reason carefully about cells, equations, data, and mechanisms. I also read theology, poetry, novels, intellectual history, and whatever else seems capable of disturbing a settled opinion.
+I make mathematical models of biological systems and teach students to reason carefully about cells, equations, data, and mechanisms. I also read theology, poetry, novels, and intellectual history.
 
 Room for God & Others gathers writing that does not fit neatly inside academic genres: essays, poems, sayings, thoughts, quotations, fragments, and unfinished arguments. The title names the aspiration. I want more room for God, for other people, for difficult questions, and for forms of truth that cannot be reduced to slogans, branding, or institutional procedure.
 
