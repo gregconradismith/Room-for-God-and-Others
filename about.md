@@ -6,7 +6,7 @@ description: Essays, poems, thoughts, sayings, and voices.
 hide_eyebrow: true
 ---
 
-I am Greg Conradi Smith: a scientist, professor, Christian, reader, and writer.
+I am Greg Conradi Smith: a scientist, professor, reader, and believer.
 
 I make mathematical models of biological systems and teach students to reason carefully about cells, equations, data, and mechanisms. I also read theology, poetry, novels, and intellectual history.
 
