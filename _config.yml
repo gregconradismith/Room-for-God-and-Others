@@ -7,8 +7,8 @@ timezone: America/New_York
 css_version: 27
 
 analytics:
-  plausible_domain: ""
-  plausible_src: "https://plausible.io/js/script.js"
+  goatcounter_url: "https://gregconradismith.goatcounter.com"
+  goatcounter_src: "https://gc.zgo.at/count.js"
 
 author:
   name: "Greg Conrad Smith"

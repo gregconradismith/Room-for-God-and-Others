@@ -63,7 +63,7 @@ image_position: "50% 35%"
 
 This repository is intended to build through GitHub Actions and GitHub Pages. Do not install or run Jekyll locally for this project; push Markdown changes and let the Pages workflow convert them to static HTML.
 
-The Pages workflow also runs once a day so the static voice-of-the-day page refreshes. To enable privacy-respecting analytics, add the site domain to `analytics.plausible_domain` in `_config.yml` after creating the site in Plausible or a compatible self-hosted endpoint.
+The Pages workflow also runs once a day so the static voice-of-the-day page refreshes. Privacy-respecting analytics are handled through GoatCounter; set `analytics.goatcounter_url` in `_config.yml` after creating the GoatCounter site.
 
 ## Codex Coordination
 

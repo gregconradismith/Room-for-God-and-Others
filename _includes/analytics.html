@@ -1,10 +1,5 @@
-{% assign plausible_domain = site.analytics.plausible_domain | default: "" %}
-{% assign plausible_src = site.analytics.plausible_src | default: "https://plausible.io/js/script.js" %}
-{% if plausible_domain != "" %}
-  <script defer data-domain="{{ plausible_domain | escape }}" src="{{ plausible_src | escape }}"></script>
-  <script>
-    window.plausible = window.plausible || function () {
-      (window.plausible.q = window.plausible.q || []).push(arguments);
-    };
-  </script>
+{% assign goatcounter_url = site.analytics.goatcounter_url | default: "" %}
+{% assign goatcounter_src = site.analytics.goatcounter_src | default: "https://gc.zgo.at/count.js" %}
+{% if goatcounter_url != "" %}
+  <script data-goatcounter="{{ goatcounter_url | append: '/count' | escape }}" async src="{{ goatcounter_src | escape }}"></script>
 {% endif %}
